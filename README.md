@@ -102,7 +102,7 @@ PYTHONPATH=.:experiments/src python experiments/src/paper_numbers.py   # writes 
 
 ## License and Citation
 
-If you use HeteroSv, please cite:
+If you use HeteroSV, please cite:
 
 > Ali Azizpour, Todd J. Treangen, and Santiago Segarra. *HeteroSV: Heterophilic Graph Learning for Structural Variant Calling in Metagenomes.*
 
