@@ -33,6 +33,6 @@ need() {  # need PATH MESSAGE
 with_env() {  # with_env ENV COMMAND...: run a command with the tools of a conda environment of envs/
   local env=$1 prefix; shift
   prefix=$("${CONDA_EXE:-conda}" info --envs | awk -v e="$env" '$1 == e {print $NF}')
-  [ -n "$prefix" ] || { echo "No conda environment $env: see README.md, Option 2" >&2; exit 1; }
+  [ -n "$prefix" ] || { echo "No conda environment $env: create it from envs/" >&2; exit 1; }
   PATH="$prefix/bin:$PATH" "$@"
 }
