@@ -10,10 +10,9 @@ HeteroSV is a self-supervised caller of structural variants (SVs) in long-read m
 heterosv/         the method
 run_heterosv.py   from reads to SV calls
 example/          toy reads for the Quick Start
-experiments/      one script per table or figure of the paper; prepare/ to rebuild the data
+experiments/      one script per table or figure of the paper
 data/             download scripts (the data themselves are not in the repository)
 paper_results/    outputs of the paper's own run, for comparison
-envs/             conda environments of the tools used only to rebuild the data
 third_party/      Rhea's code
 ```
 
@@ -64,68 +63,38 @@ For your own data, give the reads in series order and name their type as metaFly
 
 ## Reproducing Paper Results
 
-The data behind the paper are on Zenodo ([doi:10.5281/zenodo.23818810](https://doi.org/10.5281/zenodo.23818810)): the co-assembly graphs, read alignments, ground truth, reads, and outputs of the other callers. Reproduce the results from these data, as in Option 1. Assemblers and simulators do not give the same output twice, so data regenerated from scratch (Option 2) are a new version of the datasets and give different numbers.
+The data behind the paper are on Zenodo ([doi:10.5281/zenodo.23818810](https://doi.org/10.5281/zenodo.23818810)): the co-assembly graphs, read alignments, ground truth, reads, and outputs of the other callers. The scripts below reproduce the results from these data.
 
 Each script of `experiments/` reproduces one result of the main body and writes it to `results/<name>/`. Run them from the root of the repository, in the `heterosv` environment.
 
 | Script | Reproduces | Output in `results/` | Time, retraining |
 |---|---|---|---|
-| `experiments/00_fig1_overview.sh` | Figure 1 | `fig1_overview/fig1.pdf` | seconds |
-| `experiments/01_table1_benchmark.sh` | Table 1 | `table1_benchmark/table1.md` | 25 min |
-| `experiments/02_fig2_heterophily.sh` | Figure 2 | `fig2_heterophily/fig2.pdf` | 75 min |
-| `experiments/03_fig3_learning_step.sh` | Figure 3 | `fig3_learning_step/fig3.pdf` | 70 min |
-| `experiments/04_fig4_table2_cheese.sh` | Figure 4, Table 2 | `fig4_table2_cheese/fig4.pdf`, `table2.md` | 1 h |
-| `experiments/05_fig5_speed.sh` | Figure 5 | `fig5_speed/fig5.pdf` | seconds |
+| `experiments/00_fig1_overview.sh` | Figure 1 | `fig1_overview/fig1.pdf` |
+| `experiments/01_table1_benchmark.sh` | Table 1 | `table1_benchmark/table1.md` |
+| `experiments/02_fig2_heterophily.sh` | Figure 2 | `fig2_heterophily/fig2.pdf` |
+| `experiments/03_fig3_learning_step.sh` | Figure 3 | `fig3_learning_step/fig3.pdf` |
+| `experiments/04_fig4_table2_cheese.sh` | Figure 4, Table 2 | `fig4_table2_cheese/fig4.pdf`, `table2.md` |
+| `experiments/05_fig5_speed.sh` | Figure 5 | `fig5_speed/fig5.pdf` |
 
-Times are for one GPU and 16 threads on a shared machine. With `USE_PAPER_CALLS=1` (below), scripts 01--03 take about a minute and script 04 takes about 40 minutes. To list the numbers stated in the text next to the paper's values:
+To list the numbers stated in the text next to the paper's values:
 
 ```bash
 PYTHONPATH=.:experiments/src python experiments/src/paper_numbers.py   # writes results/paper_numbers.md
 ```
 
-### Option 1: from the data on Zenodo (recommended)
+### Running the scripts
 
 ```bash
 bash data/download.sh               # Zymo from OSF, prepared data from Zenodo: 1 GB, 3 GB unpacked
 bash data/download_cheese_reads.sh  # only for script 04: cheese reads from SRA, 5.9 GB
 bash experiments/01_table1_benchmark.sh
 ```
-
 This repeats the training, scoring, and read-support tests. `DEVICE=cpu` and `THREADS=32` set the device and the threads.
 
-**Exact numbers.** Training on a GPU is not bit-reproducible: with the same seed, a few nodes change between runs. Retraining therefore gives values close to the paper's (in our rerun, Table 1 differed from the paper by at most 0.004, and Table 2 gave 179 of 578 supported calls and 295 split-control calls for HeteroSV, against 179 of 571 and 293). To get the paper's numbers exactly, use the calls of its own run, stored in `paper_results/`, and repeat everything else:
-
-```bash
-USE_PAPER_CALLS=1 bash experiments/01_table1_benchmark.sh
-```
-
-### Option 2: from scratch
-
-This rebuilds what `data/download.sh` provides, with the extra conda environments, more disk, and much more time. Afterwards, run the scripts as in Option 1.
-
-```bash
-conda env create -f envs/simulate.yml     # NanoSim, SURVIVOR
-conda env create -f envs/baselines.yml    # MetaBAT 2, MUMmer, skani, Sniffles2
-conda env create -f envs/annotation.yml   # geNomad, sourmash
-bash experiments/prepare/simulate_series.sh    # reads, graphs, ground truth of the simulated series
-bash experiments/prepare/baselines.sh          # the callers that compare two samples
-bash data/download_cheese_reads.sh
-bash experiments/prepare/cheese_assembly.sh    # cheese co-assembly (4.4 h, 48 GB), baselines
-bash experiments/prepare/cheese_annotation.sh  # mobile elements and host species (databases of 5 GB)
-```
-
-**The numbers will differ from the paper's.** SURVIVOR draws its SVs from the clock, NanoSim's reads differ between runs even with a fixed seed, and metaFlye's graph differs between runs on the same reads. To start closer to the paper, unpack `heterosv_simulated_reads.tar.gz` from Zenodo into `data/` first, which keeps the paper's SVs and reads. For example, on three regenerated graphs of the low-depth series, HeteroSV's node macro-F1 was 0.916--0.949 (paper: 0.949) and Rhea's 0.845--0.919 (paper: 0.900).
-
-### Notes
-
-- **Figure 5** is drawn from the timings of the paper's run on one NVIDIA A100 GPU. `RERUN_TIMINGS=1` measures them on your machine; Rhea needs 78 GB of memory at 22,230 nodes, and its 0.9 TB at 74,100 nodes in the paper is an estimate, not a run.
-- **Zymo:** the callers that compare two samples were not run on Zymo, so Table 1 has no values for them there. The paper reports the recall from Rhea's paper for the MAG workflow.
-- **Cheese settings:** the cheese results use `T_S = 0`, chosen without labels with the split-sample control (`pick` in `experiments/src/cheese/loosen.py`; the paper's appendix states this). All other datasets use `T_S = 0.5`.
-- **CPU:** repeated runs on one machine are identical, but they are not the paper's GPU runs.
 
 ## License and Citation
 
-HeteroSV is released under the [MIT License](LICENSE). If you use it, please cite:
+If you use HeteroSV, please cite:
 
 > Ali Azizpour, Todd J. Treangen, and Santiago Segarra. *HeteroSV: Heterophilic Graph Learning for Structural Variant Calling in Metagenomes.*
 
