@@ -39,7 +39,7 @@ The example is the toy dataset released with Rhea: reads of two *E. coli* varian
 bash example/download.sh
 ```
 
-**2. Call SVs.** co-assembly, alignment of each sample to the graph, coverage, initial calls, and ten trained networks whose majority call is the result.
+**2. Call SVs.** This runs co-assembly, alignment of each sample to the graph, coverage, initial calls, and ten trained networks whose majority call is the result.
 
 ```bash
 python run_heterosv.py example/t0.fasta example/t1.fasta --out heterosv_out
@@ -67,20 +67,14 @@ The data behind the paper are on Zenodo ([doi:10.5281/zenodo.23818810](https://d
 
 Each script of `experiments/` reproduces one result of the main body and writes it to `results/<name>/`. Run them from the root of the repository, in the `heterosv` environment.
 
-| Script | Reproduces | Output in `results/` | Time, retraining |
-|---|---|---|---|
+| Script | Reproduces | Output in `results/` |
+|---|---|---|
 | `experiments/00_fig1_overview.sh` | Figure 1 | `fig1_overview/fig1.pdf` |
 | `experiments/01_table1_benchmark.sh` | Table 1 | `table1_benchmark/table1.md` |
 | `experiments/02_fig2_heterophily.sh` | Figure 2 | `fig2_heterophily/fig2.pdf` |
 | `experiments/03_fig3_learning_step.sh` | Figure 3 | `fig3_learning_step/fig3.pdf` |
 | `experiments/04_fig4_table2_cheese.sh` | Figure 4, Table 2 | `fig4_table2_cheese/fig4.pdf`, `table2.md` |
 | `experiments/05_fig5_speed.sh` | Figure 5 | `fig5_speed/fig5.pdf` |
-
-To list the numbers stated in the text next to the paper's values:
-
-```bash
-PYTHONPATH=.:experiments/src python experiments/src/paper_numbers.py   # writes results/paper_numbers.md
-```
 
 ### Running the scripts
 
@@ -89,12 +83,26 @@ bash data/download.sh               # Zymo from OSF, prepared data from Zenodo: 
 bash data/download_cheese_reads.sh  # only for script 04: cheese reads from SRA, 5.9 GB
 bash experiments/01_table1_benchmark.sh
 ```
+
 This repeats the training, scoring, and read-support tests. `DEVICE=cpu` and `THREADS=32` set the device and the threads.
 
+Training on a GPU is not bit-reproducible, so retraining gives values close to the paper's, not identical. To get the paper's exact numbers, use the calls of its own run, stored in `paper_results/`:
+
+```bash
+USE_PAPER_CALLS=1 bash experiments/01_table1_benchmark.sh
+```
+
+Figure 5 is drawn from the timings of the paper's run; `RERUN_TIMINGS=1` measures them on your machine.
+
+To list the numbers stated in the text next to the paper's values:
+
+```bash
+PYTHONPATH=.:experiments/src python experiments/src/paper_numbers.py   # writes results/paper_numbers.md
+```
 
 ## License and Citation
 
-If you use HeteroSV, please cite:
+HeteroSV is released under the [MIT License](LICENSE). If you use it, please cite:
 
 > Ali Azizpour, Todd J. Treangen, and Santiago Segarra. *HeteroSV: Heterophilic Graph Learning for Structural Variant Calling in Metagenomes.*
 
