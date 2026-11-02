@@ -40,7 +40,7 @@ The example is the toy dataset released with Rhea: reads of two *E. coli* varian
 bash example/download.sh
 ```
 
-**2. Call SVs.** About 3 minutes on 8 threads: co-assembly, alignment of each sample to the graph, coverage, initial calls, and ten trained networks whose majority call is the result.
+**2. Call SVs.** co-assembly, alignment of each sample to the graph, coverage, initial calls, and ten trained networks whose majority call is the result.
 
 ```bash
 python run_heterosv.py example/t0.fasta example/t1.fasta --out heterosv_out
