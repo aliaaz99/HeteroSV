@@ -1,0 +1,595 @@
+dataset,labels,family,calls,seed,macro_f1,sv_recall,sv_precision
+zymo,truth + 10% random,random,initial,-1,0.8783936723074705,0.612,0.8337662337662337
+zymo,truth + 10% random,random,learned,0,0.929487604625285,0.668,0.9177377892030848
+zymo,truth + 10% random,random,learned,1,0.9269006899914976,0.668,0.9183673469387755
+zymo,truth + 10% random,random,learned,2,0.9180312339709545,0.672,0.912718204488778
+zymo,truth + 10% random,random,learned,3,0.9201447953377615,0.672,0.9152119700748129
+zymo,truth + 10% random,random,learned,4,0.9153680359588788,0.674,0.9
+zymo,truth + 10% random,random,learned,5,0.9159238043487518,0.674,0.9039408866995073
+zymo,truth + 10% random,random,learned,6,0.929727583481997,0.666,0.922879177377892
+zymo,truth + 10% random,random,learned,7,0.9186471475302,0.67,0.8980099502487562
+zymo,truth + 10% random,random,learned,8,0.9180921602785027,0.676,0.9081885856079405
+zymo,truth + 10% random,random,learned,9,0.9205063256619743,0.672,0.9102244389027432
+zymo,truth + 30% random,random,initial,-1,0.6406312719571768,0.48,0.5562913907284768
+zymo,truth + 30% random,random,learned,0,0.8959481205753025,0.668,0.8790123456790123
+zymo,truth + 30% random,random,learned,1,0.8932860896834729,0.67,0.8530805687203792
+zymo,truth + 30% random,random,learned,2,0.8916996728383325,0.672,0.8490566037735849
+zymo,truth + 30% random,random,learned,3,0.9051166822499167,0.674,0.8816425120772947
+zymo,truth + 30% random,random,learned,4,0.9019712485425936,0.67,0.8795180722891566
+zymo,truth + 30% random,random,learned,5,0.8954911929694406,0.668,0.8652482269503546
+zymo,truth + 30% random,random,learned,6,0.8947869779459601,0.67,0.8564593301435407
+zymo,truth + 30% random,random,learned,7,0.909993248421808,0.67,0.8905109489051095
+zymo,truth + 30% random,random,learned,8,0.9004715053020957,0.67,0.8622327790973872
+zymo,truth + 30% random,random,learned,9,0.9079966761649585,0.67,0.883495145631068
+zymo,rhea + 30% random,random,initial,-1,0.5757182753195311,0.472,0.5277161862527716
+zymo,rhea + 30% random,random,learned,0,0.879451695348462,0.66,0.9120879120879121
+zymo,rhea + 30% random,random,learned,1,0.8799198100542238,0.662,0.9073569482288828
+zymo,rhea + 30% random,random,learned,2,0.8798260874985931,0.664,0.9098360655737705
+zymo,rhea + 30% random,random,learned,3,0.8550016679245459,0.654,0.8746666666666667
+zymo,rhea + 30% random,random,learned,4,0.8740383836257276,0.66,0.8994565217391305
+zymo,rhea + 30% random,random,learned,5,0.842055854860161,0.638,0.862533692722372
+zymo,rhea + 30% random,random,learned,6,0.8839654233962436,0.662,0.9123287671232877
+zymo,rhea + 30% random,random,learned,7,0.8793924478149656,0.656,0.9065934065934066
+zymo,rhea + 30% random,random,learned,8,0.8868005457425768,0.662,0.9148351648351648
+zymo,rhea + 30% random,random,learned,9,0.8696715368891811,0.654,0.8891891891891892
+zymo,rhea's rules,rule-based,initial,-1,0.8767627168269277,0.658,0.9241573033707865
+zymo,rhea's rules,rule-based,learned,0,0.8891206036270219,0.668,0.925414364640884
+zymo,rhea's rules,rule-based,learned,1,0.886339813717238,0.668,0.9232876712328767
+zymo,rhea's rules,rule-based,learned,2,0.891295730089646,0.672,0.9234972677595629
+zymo,rhea's rules,rule-based,learned,3,0.8948510324626379,0.668,0.9307479224376731
+zymo,rhea's rules,rule-based,learned,4,0.8877355207230145,0.668,0.9203296703296703
+zymo,rhea's rules,rule-based,learned,5,0.8824440491337476,0.668,0.9178082191780822
+zymo,rhea's rules,rule-based,learned,6,0.8931955381851501,0.67,0.9232876712328767
+zymo,rhea's rules,rule-based,learned,7,0.8837970026842571,0.666,0.9201101928374655
+zymo,rhea's rules,rule-based,learned,8,0.8863860425634648,0.668,0.9228650137741047
+zymo,rhea's rules,rule-based,learned,9,0.8934922848846892,0.668,0.9256198347107438
+zymo,flank rule (0.5/0.5),rule-based,initial,-1,0.8313236993108787,0.54,0.9440559440559441
+zymo,flank rule (0.5/0.5),rule-based,learned,0,0.8603775606967066,0.578,0.9537953795379538
+zymo,flank rule (0.5/0.5),rule-based,learned,1,0.8633069364753961,0.582,0.9540983606557377
+zymo,flank rule (0.5/0.5),rule-based,learned,2,0.8603775606967066,0.578,0.9537953795379538
+zymo,flank rule (0.5/0.5),rule-based,learned,3,0.8586904983346958,0.582,0.9448051948051948
+zymo,flank rule (0.5/0.5),rule-based,learned,4,0.8593546243115376,0.578,0.9506578947368421
+zymo,flank rule (0.5/0.5),rule-based,learned,5,0.8588438738776801,0.576,0.9536423841059603
+zymo,flank rule (0.5/0.5),rule-based,learned,6,0.8612766690746941,0.578,0.956953642384106
+zymo,flank rule (0.5/0.5),rule-based,learned,7,0.8617755520595002,0.58,0.9539473684210527
+zymo,flank rule (0.5/0.5),rule-based,learned,8,0.856887631980784,0.578,0.9444444444444444
+zymo,flank rule (0.5/0.5),rule-based,learned,9,0.8630799789746865,0.58,0.9570957095709571
+zymo,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.7700735571079118,0.466,0.9471544715447154
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,0,0.8264396177966021,0.532,0.9568345323741008
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,1,0.837241072727195,0.548,0.9513888888888888
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,2,0.8226445452660526,0.53,0.9498207885304659
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,3,0.8202531634996708,0.528,0.946236559139785
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,4,0.8377545941384347,0.552,0.9452054794520548
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,5,0.8170178858654379,0.524,0.9458483754512635
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,6,0.8282031481149866,0.536,0.950354609929078
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,7,0.8478184856629216,0.564,0.9463087248322147
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,8,0.8187361841348991,0.524,0.9527272727272728
+zymo,"flank rule, strict (1/0.5)",rule-based,learned,9,0.8423979501933875,0.554,0.9551724137931035
+zymo,crude contrast,rule-based,initial,-1,0.23541202986733464,0.258,0.27292110874200426
+zymo,crude contrast,rule-based,learned,0,0.24972549177144845,0.262,0.289532293986637
+zymo,crude contrast,rule-based,learned,1,0.24183709145092683,0.254,0.2775330396475771
+zymo,crude contrast,rule-based,learned,2,0.24198372114451203,0.258,0.27586206896551724
+zymo,crude contrast,rule-based,learned,3,0.2360593512767426,0.266,0.27104722792607805
+zymo,crude contrast,rule-based,learned,4,0.2297131236162225,0.264,0.2673469387755102
+zymo,crude contrast,rule-based,learned,5,0.2239264095624365,0.264,0.26043737574552683
+zymo,crude contrast,rule-based,learned,6,0.2379926048160372,0.246,0.26973684210526316
+zymo,crude contrast,rule-based,learned,7,0.24299383336235802,0.262,0.28077753779697623
+zymo,crude contrast,rule-based,learned,8,0.23200042234884835,0.258,0.27044025157232704
+zymo,crude contrast,rule-based,learned,9,0.23222319199330696,0.282,0.2681992337164751
+zymo,"truth, no TD",systematic,initial,-1,0.8167821401077752,0.53,1.0
+zymo,"truth, no TD",systematic,learned,0,0.7821787448165521,0.534,0.9368421052631579
+zymo,"truth, no TD",systematic,learned,1,0.7910191640717447,0.536,0.9571428571428572
+zymo,"truth, no TD",systematic,learned,2,0.7924867700348898,0.532,0.9708029197080292
+zymo,"truth, no TD",systematic,learned,3,0.79202775478327,0.536,0.9605734767025089
+zymo,"truth, no TD",systematic,learned,4,0.7892051385419178,0.536,0.950354609929078
+zymo,"truth, no TD",systematic,learned,5,0.7910191640717447,0.536,0.9571428571428572
+zymo,"truth, no TD",systematic,learned,6,0.7915510676647548,0.536,0.9605734767025089
+zymo,"truth, no TD",systematic,learned,7,0.7910191640717447,0.536,0.9571428571428572
+zymo,"truth, no TD",systematic,learned,8,0.7924178437529464,0.536,0.9605734767025089
+zymo,"truth, no TD",systematic,learned,9,0.7910191640717447,0.536,0.9571428571428572
+zymo,"truth, CG -> INS",systematic,initial,-1,0.7772194304857621,0.53,0.8091168091168092
+zymo,"truth, CG -> INS",systematic,learned,0,0.7302699093638111,0.55,0.7746113989637305
+zymo,"truth, CG -> INS",systematic,learned,1,0.7181495404683492,0.552,0.7655860349127181
+zymo,"truth, CG -> INS",systematic,learned,2,0.7313388778676954,0.546,0.7757731958762887
+zymo,"truth, CG -> INS",systematic,learned,3,0.7219839799051613,0.548,0.7620253164556962
+zymo,"truth, CG -> INS",systematic,learned,4,0.7309257568932072,0.548,0.7746113989637305
+zymo,"truth, CG -> INS",systematic,learned,5,0.7172082277200786,0.552,0.765
+zymo,"truth, CG -> INS",systematic,learned,6,0.7247934510976061,0.548,0.7670886075949367
+zymo,"truth, CG -> INS",systematic,learned,7,0.7157047144066025,0.552,0.763681592039801
+zymo,"truth, CG -> INS",systematic,learned,8,0.728833762960808,0.546,0.7654639175257731
+zymo,"truth, CG -> INS",systematic,learned,9,0.7290839467609337,0.548,0.7743589743589744
+replica,truth + 10% random,random,initial,-1,0.8692999860205316,0.568,0.8304093567251462
+replica,truth + 10% random,random,learned,0,0.9431386290256905,0.638,0.9193083573487032
+replica,truth + 10% random,random,learned,1,0.9545915787873636,0.64,0.9384164222873901
+replica,truth + 10% random,random,learned,2,0.9523197016564673,0.64,0.9329446064139941
+replica,truth + 10% random,random,learned,3,0.9570090466240981,0.64,0.9411764705882353
+replica,truth + 10% random,random,learned,4,0.9140960767819074,0.614,0.8746438746438746
+replica,truth + 10% random,random,learned,5,0.9517054474480249,0.636,0.9352941176470588
+replica,truth + 10% random,random,learned,6,0.9538464898092635,0.642,0.9331395348837209
+replica,truth + 10% random,random,learned,7,0.9572737668453817,0.64,0.9411764705882353
+replica,truth + 10% random,random,learned,8,0.9508173636843914,0.64,0.9302325581395349
+replica,truth + 10% random,random,learned,9,0.9478725011834227,0.638,0.9300291545189504
+replica,truth + 30% random,random,initial,-1,0.6445110579447918,0.458,0.5786802030456852
+replica,truth + 30% random,random,learned,0,0.9508759646274694,0.632,0.9294117647058824
+replica,truth + 30% random,random,learned,1,0.9290291283873232,0.628,0.9046242774566474
+replica,truth + 30% random,random,learned,2,0.9337339627860687,0.626,0.9069767441860465
+replica,truth + 30% random,random,learned,3,0.9337339627860687,0.626,0.9069767441860465
+replica,truth + 30% random,random,learned,4,0.944002547067389,0.638,0.9271137026239067
+replica,truth + 30% random,random,learned,5,0.9370312728915146,0.63,0.9154518950437318
+replica,truth + 30% random,random,learned,6,0.9543127047029288,0.628,0.9457831325301205
+replica,truth + 30% random,random,learned,7,0.9360451623202614,0.63,0.9075144508670521
+replica,truth + 30% random,random,learned,8,0.9373056981260901,0.628,0.9127906976744186
+replica,truth + 30% random,random,learned,9,0.9365041235077705,0.626,0.9072463768115943
+replica,rhea + 30% random,random,initial,-1,0.6061942231578699,0.458,0.5439429928741093
+replica,rhea + 30% random,random,learned,0,0.8942999075512148,0.626,0.8324468085106383
+replica,rhea + 30% random,random,learned,1,0.9018526835747629,0.644,0.8518518518518519
+replica,rhea + 30% random,random,learned,2,0.8934986561127634,0.644,0.8367875647668394
+replica,rhea + 30% random,random,learned,3,0.9010850421373595,0.64,0.8492063492063492
+replica,rhea + 30% random,random,learned,4,0.9021060345872813,0.642,0.8492063492063492
+replica,rhea + 30% random,random,learned,5,0.9013430129975148,0.644,0.8518518518518519
+replica,rhea + 30% random,random,learned,6,0.8833227169427897,0.63,0.8160621761658031
+replica,rhea + 30% random,random,learned,7,0.8872662955789826,0.648,0.8290816326530612
+replica,rhea + 30% random,random,learned,8,0.8950886413519171,0.644,0.8407310704960835
+replica,rhea + 30% random,random,learned,9,0.8932528700640429,0.642,0.8429319371727748
+replica,rhea's rules,rule-based,initial,-1,0.9229096708165739,0.632,0.8977272727272727
+replica,rhea's rules,rule-based,learned,0,0.924655231820697,0.636,0.8808864265927978
+replica,rhea's rules,rule-based,learned,1,0.9314121243787143,0.634,0.8980169971671388
+replica,rhea's rules,rule-based,learned,2,0.9254880708330568,0.63,0.8971428571428571
+replica,rhea's rules,rule-based,learned,3,0.9411952543369742,0.638,0.9140401146131805
+replica,rhea's rules,rule-based,learned,4,0.9150845420153259,0.642,0.8722826086956522
+replica,rhea's rules,rule-based,learned,5,0.9388404918739276,0.642,0.8966480446927374
+replica,rhea's rules,rule-based,learned,6,0.916923750770791,0.64,0.8695652173913043
+replica,rhea's rules,rule-based,learned,7,0.9241694262329103,0.638,0.8787878787878788
+replica,rhea's rules,rule-based,learned,8,0.9176117720121315,0.642,0.8770491803278688
+replica,rhea's rules,rule-based,learned,9,0.9273718570437248,0.64,0.8938547486033519
+replica,flank rule (0.5/0.5),rule-based,initial,-1,0.9354606087612582,0.594,0.9674267100977199
+replica,flank rule (0.5/0.5),rule-based,learned,0,0.9689963376675763,0.634,0.9723926380368099
+replica,flank rule (0.5/0.5),rule-based,learned,1,0.9545569178831496,0.64,0.935672514619883
+replica,flank rule (0.5/0.5),rule-based,learned,2,0.9508655445252344,0.638,0.9327485380116959
+replica,flank rule (0.5/0.5),rule-based,learned,3,0.9516244746695067,0.638,0.9354838709677419
+replica,flank rule (0.5/0.5),rule-based,learned,4,0.9525860671091447,0.64,0.9329446064139941
+replica,flank rule (0.5/0.5),rule-based,learned,5,0.9702217815328842,0.636,0.9724770642201835
+replica,flank rule (0.5/0.5),rule-based,learned,6,0.9689963376675763,0.634,0.9723926380368099
+replica,flank rule (0.5/0.5),rule-based,learned,7,0.9671101955096644,0.632,0.9723076923076923
+replica,flank rule (0.5/0.5),rule-based,learned,8,0.9505776107015592,0.638,0.9327485380116959
+replica,flank rule (0.5/0.5),rule-based,learned,9,0.9511745458690392,0.64,0.9329446064139941
+replica,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.8756129348154769,0.518,0.9810606060606061
+replica,"flank rule, strict (1/0.5)",rule-based,learned,0,0.9071328491209666,0.554,0.9787985865724381
+replica,"flank rule, strict (1/0.5)",rule-based,learned,1,0.8668382076873161,0.58,0.8401162790697675
+replica,"flank rule, strict (1/0.5)",rule-based,learned,2,0.9504561097381622,0.642,0.9329446064139941
+replica,"flank rule, strict (1/0.5)",rule-based,learned,3,0.9432114024203768,0.626,0.9343283582089552
+replica,"flank rule, strict (1/0.5)",rule-based,learned,4,0.9019722071208426,0.546,0.9820143884892086
+replica,"flank rule, strict (1/0.5)",rule-based,learned,5,0.9481152161339356,0.622,0.9424242424242424
+replica,"flank rule, strict (1/0.5)",rule-based,learned,6,0.9276403241504306,0.628,0.9020172910662824
+replica,"flank rule, strict (1/0.5)",rule-based,learned,7,0.9466655360226893,0.628,0.9317507418397626
+replica,"flank rule, strict (1/0.5)",rule-based,learned,8,0.941926665174106,0.612,0.9444444444444444
+replica,"flank rule, strict (1/0.5)",rule-based,learned,9,0.9540991957605911,0.606,0.9805825242718447
+replica,crude contrast,rule-based,initial,-1,0.2982376116786767,0.28,0.39660056657223797
+replica,crude contrast,rule-based,learned,0,0.3064843417407684,0.286,0.40226628895184136
+replica,crude contrast,rule-based,learned,1,0.2917794615086026,0.286,0.3817204301075269
+replica,crude contrast,rule-based,learned,2,0.2998194317951831,0.288,0.39285714285714285
+replica,crude contrast,rule-based,learned,3,0.29454282990940656,0.28,0.388268156424581
+replica,crude contrast,rule-based,learned,4,0.3080034199668779,0.284,0.40285714285714286
+replica,crude contrast,rule-based,learned,5,0.3028488803328154,0.282,0.4034582132564842
+replica,crude contrast,rule-based,learned,6,0.3015611155944946,0.298,0.3967828418230563
+replica,crude contrast,rule-based,learned,7,0.3154000679784616,0.294,0.4269005847953216
+replica,crude contrast,rule-based,learned,8,0.3037907258595879,0.286,0.4068767908309456
+replica,crude contrast,rule-based,learned,9,0.29750373430069504,0.288,0.39285714285714285
+replica,"truth, no TD",systematic,initial,-1,0.8218000904568069,0.534,1.0
+replica,"truth, no TD",systematic,learned,0,0.7875020784159271,0.532,0.9300699300699301
+replica,"truth, no TD",systematic,learned,1,0.7875020784159271,0.532,0.9300699300699301
+replica,"truth, no TD",systematic,learned,2,0.7834204050462846,0.532,0.9204152249134948
+replica,"truth, no TD",systematic,learned,3,0.7821327749003738,0.532,0.9204152249134948
+replica,"truth, no TD",systematic,learned,4,0.8053328787983368,0.532,0.9708029197080292
+replica,"truth, no TD",systematic,learned,5,0.7828003614736626,0.534,0.9238754325259516
+replica,"truth, no TD",systematic,learned,6,0.7849107146712696,0.532,0.9236111111111112
+replica,"truth, no TD",systematic,learned,7,0.7875020784159271,0.532,0.9300699300699301
+replica,"truth, no TD",systematic,learned,8,0.7825724300224962,0.53,0.9201388888888888
+replica,"truth, no TD",systematic,learned,9,0.7869107521922909,0.53,0.9265734265734266
+replica,"truth, CG -> INS",systematic,initial,-1,0.7807971014492754,0.52,0.8176100628930818
+replica,"truth, CG -> INS",systematic,learned,0,0.7596739993346021,0.534,0.8036253776435045
+replica,"truth, CG -> INS",systematic,learned,1,0.7432298427835627,0.532,0.7725947521865889
+replica,"truth, CG -> INS",systematic,learned,2,0.744765377045795,0.534,0.7777777777777778
+replica,"truth, CG -> INS",systematic,learned,3,0.7596739993346021,0.534,0.8036253776435045
+replica,"truth, CG -> INS",systematic,learned,4,0.7443018876137272,0.532,0.7725947521865889
+replica,"truth, CG -> INS",systematic,learned,5,0.7452590135883111,0.532,0.7725947521865889
+replica,"truth, CG -> INS",systematic,learned,6,0.7456114280045544,0.534,0.7800586510263929
+replica,"truth, CG -> INS",systematic,learned,7,0.7456576705956097,0.532,0.7725947521865889
+replica,"truth, CG -> INS",systematic,learned,8,0.7455642454766841,0.532,0.7748538011695907
+replica,"truth, CG -> INS",systematic,learned,9,0.7453240327085843,0.534,0.7777777777777778
+long_sv,truth + 10% random,random,initial,-1,0.872581817014486,0.776,0.8394793926247288
+long_sv,truth + 10% random,random,learned,0,0.9506778280649223,0.85,0.9301310043668122
+long_sv,truth + 10% random,random,learned,1,0.9513131464436144,0.852,0.9323144104803494
+long_sv,truth + 10% random,random,learned,2,0.951345073630392,0.854,0.9324618736383442
+long_sv,truth + 10% random,random,learned,3,0.9585656869130302,0.848,0.9422222222222222
+long_sv,truth + 10% random,random,learned,4,0.9528520899632505,0.842,0.9376391982182628
+long_sv,truth + 10% random,random,learned,5,0.9542039693675725,0.85,0.9321663019693655
+long_sv,truth + 10% random,random,learned,6,0.9506225656580326,0.848,0.9299781181619255
+long_sv,truth + 10% random,random,learned,7,0.9551048148491889,0.85,0.9361233480176211
+long_sv,truth + 10% random,random,learned,8,0.9485575054226699,0.848,0.9340659340659341
+long_sv,truth + 10% random,random,learned,9,0.9534350478494656,0.85,0.9320175438596491
+long_sv,truth + 30% random,random,initial,-1,0.6562644559922765,0.61,0.5941747572815534
+long_sv,truth + 30% random,random,learned,0,0.925603593881832,0.84,0.89171974522293
+long_sv,truth + 30% random,random,learned,1,0.9215507726679993,0.828,0.8865096359743041
+long_sv,truth + 30% random,random,learned,2,0.925941059172645,0.832,0.8946236559139785
+long_sv,truth + 30% random,random,learned,3,0.9219186240476369,0.836,0.8874734607218684
+long_sv,truth + 30% random,random,learned,4,0.9237310658374415,0.84,0.8842105263157894
+long_sv,truth + 30% random,random,learned,5,0.9238164204783014,0.83,0.8886509635974305
+long_sv,truth + 30% random,random,learned,6,0.925748983864397,0.826,0.8997821350762527
+long_sv,truth + 30% random,random,learned,7,0.9244920702895526,0.842,0.89171974522293
+long_sv,truth + 30% random,random,learned,8,0.9341762389427687,0.84,0.9053763440860215
+long_sv,truth + 30% random,random,learned,9,0.9208564205218308,0.834,0.8893617021276595
+long_sv,rhea + 30% random,random,initial,-1,0.5750494529470206,0.506,0.5216494845360825
+long_sv,rhea + 30% random,random,learned,0,0.8336089039482472,0.766,0.8024948024948025
+long_sv,rhea + 30% random,random,learned,1,0.8288502713977642,0.766,0.810126582278481
+long_sv,rhea + 30% random,random,learned,2,0.8321097474227125,0.758,0.8154506437768241
+long_sv,rhea + 30% random,random,learned,3,0.8615325587996402,0.782,0.8256302521008403
+long_sv,rhea + 30% random,random,learned,4,0.8343108663022551,0.746,0.8278145695364238
+long_sv,rhea + 30% random,random,learned,5,0.8331303331844487,0.764,0.8258064516129032
+long_sv,rhea + 30% random,random,learned,6,0.8206512349111276,0.756,0.7928870292887029
+long_sv,rhea + 30% random,random,learned,7,0.858870594621563,0.762,0.880184331797235
+long_sv,rhea + 30% random,random,learned,8,0.8002042186672944,0.696,0.7820224719101123
+long_sv,rhea + 30% random,random,learned,9,0.8503985538144727,0.76,0.8597285067873304
+long_sv,rhea's rules,rule-based,initial,-1,0.8701257765037416,0.736,0.9533678756476683
+long_sv,rhea's rules,rule-based,learned,0,0.8861563492203636,0.762,0.9407407407407408
+long_sv,rhea's rules,rule-based,learned,1,0.8866082102403893,0.762,0.9384236453201971
+long_sv,rhea's rules,rule-based,learned,2,0.8812917223460537,0.76,0.9359605911330049
+long_sv,rhea's rules,rule-based,learned,3,0.8786463788609552,0.754,0.9378109452736318
+long_sv,rhea's rules,rule-based,learned,4,0.887843087188782,0.76,0.9429280397022333
+long_sv,rhea's rules,rule-based,learned,5,0.8719762473211419,0.752,0.9376558603491272
+long_sv,rhea's rules,rule-based,learned,6,0.8760398189057863,0.752,0.9376558603491272
+long_sv,rhea's rules,rule-based,learned,7,0.8743353210832762,0.75,0.9351620947630923
+long_sv,rhea's rules,rule-based,learned,8,0.8795008682251974,0.754,0.9354838709677419
+long_sv,rhea's rules,rule-based,learned,9,0.880381048953395,0.758,0.9334975369458128
+long_sv,flank rule (0.5/0.5),rule-based,initial,-1,0.8408881556800111,0.67,0.9710144927536232
+long_sv,flank rule (0.5/0.5),rule-based,learned,0,0.8965021009993831,0.75,0.97911227154047
+long_sv,flank rule (0.5/0.5),rule-based,learned,1,0.901084213626726,0.756,0.9792746113989638
+long_sv,flank rule (0.5/0.5),rule-based,learned,2,0.8978962440752,0.75,0.97911227154047
+long_sv,flank rule (0.5/0.5),rule-based,learned,3,0.8989675643697598,0.752,0.9791666666666666
+long_sv,flank rule (0.5/0.5),rule-based,learned,4,0.8834672826539284,0.762,0.9315403422982885
+long_sv,flank rule (0.5/0.5),rule-based,learned,5,0.8781774245529655,0.76,0.9225181598062954
+long_sv,flank rule (0.5/0.5),rule-based,learned,6,0.8965021009993831,0.75,0.97911227154047
+long_sv,flank rule (0.5/0.5),rule-based,learned,7,0.8978962440752,0.75,0.97911227154047
+long_sv,flank rule (0.5/0.5),rule-based,learned,8,0.8957066583431557,0.746,0.979002624671916
+long_sv,flank rule (0.5/0.5),rule-based,learned,9,0.8958607830166333,0.752,0.9740932642487047
+long_sv,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.75482574402441,0.54,0.9782608695652174
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,0,0.8454216871237538,0.666,0.9765395894428153
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,1,0.8679844085185366,0.742,0.9230769230769231
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,2,0.8562272712382049,0.682,0.9770773638968482
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,3,0.8369609814042818,0.654,0.9790419161676647
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,4,0.8421938904262022,0.686,0.9449035812672176
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,5,0.8677247578010646,0.72,0.9498680738786279
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,6,0.8435553006552374,0.662,0.976401179941003
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,7,0.854803098672689,0.678,0.9797687861271677
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,8,0.8538234569337706,0.698,0.9483695652173914
+long_sv,"flank rule, strict (1/0.5)",rule-based,learned,9,0.8424604619801421,0.66,0.9763313609467456
+long_sv,crude contrast,rule-based,initial,-1,0.2654602556706398,0.308,0.32426778242677823
+long_sv,crude contrast,rule-based,learned,0,0.26802353611229096,0.324,0.3326530612244898
+long_sv,crude contrast,rule-based,learned,1,0.2623945860317756,0.312,0.3216494845360825
+long_sv,crude contrast,rule-based,learned,2,0.2671813946410069,0.32,0.3292181069958848
+long_sv,crude contrast,rule-based,learned,3,0.26443980486764784,0.31,0.32426778242677823
+long_sv,crude contrast,rule-based,learned,4,0.2663109657283155,0.316,0.32712215320910976
+long_sv,crude contrast,rule-based,learned,5,0.2690240732345418,0.328,0.3293172690763052
+long_sv,crude contrast,rule-based,learned,6,0.25495972659462834,0.324,0.3152804642166344
+long_sv,crude contrast,rule-based,learned,7,0.26668383146015245,0.332,0.3287128712871287
+long_sv,crude contrast,rule-based,learned,8,0.2610285537139757,0.318,0.32064128256513025
+long_sv,crude contrast,rule-based,learned,9,0.2605249104739713,0.308,0.3188405797101449
+long_sv,"truth, no TD",systematic,initial,-1,0.8197586726998493,0.728,1.0
+long_sv,"truth, no TD",systematic,learned,0,0.782438069031748,0.706,0.9289473684210526
+long_sv,"truth, no TD",systematic,learned,1,0.7811206396316024,0.706,0.9289473684210526
+long_sv,"truth, no TD",systematic,learned,2,0.8023651166055435,0.712,0.9726027397260274
+long_sv,"truth, no TD",systematic,learned,3,0.7833132743693089,0.704,0.9336870026525199
+long_sv,"truth, no TD",systematic,learned,4,0.78174011809331,0.704,0.9287598944591029
+long_sv,"truth, no TD",systematic,learned,5,0.8011071489432177,0.708,0.9751381215469613
+long_sv,"truth, no TD",systematic,learned,6,0.7968580771525079,0.704,0.9751381215469613
+long_sv,"truth, no TD",systematic,learned,7,0.7833779606408916,0.704,0.9336870026525199
+long_sv,"truth, no TD",systematic,learned,8,0.7852323344212904,0.706,0.9363395225464191
+long_sv,"truth, no TD",systematic,learned,9,0.7833132743693089,0.704,0.9336870026525199
+long_sv,"truth, CG -> INS",systematic,initial,-1,0.7745098039215685,0.68,0.7793103448275862
+long_sv,"truth, CG -> INS",systematic,learned,0,0.7387596943148941,0.664,0.7334801762114538
+long_sv,"truth, CG -> INS",systematic,learned,1,0.7425275446265078,0.672,0.7417218543046358
+long_sv,"truth, CG -> INS",systematic,learned,2,0.7575257504037998,0.668,0.7602739726027398
+long_sv,"truth, CG -> INS",systematic,learned,3,0.7345646580648227,0.666,0.734065934065934
+long_sv,"truth, CG -> INS",systematic,learned,4,0.7335650143462531,0.664,0.7308533916849015
+long_sv,"truth, CG -> INS",systematic,learned,5,0.734114803598099,0.664,0.7264770240700219
+long_sv,"truth, CG -> INS",systematic,learned,6,0.7292136987298439,0.664,0.7254901960784313
+long_sv,"truth, CG -> INS",systematic,learned,7,0.730764493152027,0.662,0.7248908296943232
+long_sv,"truth, CG -> INS",systematic,learned,8,0.7286254568279295,0.664,0.7248908296943232
+long_sv,"truth, CG -> INS",systematic,learned,9,0.7542480877078281,0.67,0.7596371882086168
+low_depth,truth + 10% random,random,initial,-1,0.8680642688788386,0.548,0.8242424242424242
+low_depth,truth + 10% random,random,learned,0,0.9436451613517961,0.596,0.9226006191950464
+low_depth,truth + 10% random,random,learned,1,0.9434283565856664,0.594,0.928125
+low_depth,truth + 10% random,random,learned,2,0.9534549483773045,0.6,0.9375
+low_depth,truth + 10% random,random,learned,3,0.9509194388309162,0.6,0.9316770186335404
+low_depth,truth + 10% random,random,learned,4,0.9345589813282036,0.596,0.9057750759878419
+low_depth,truth + 10% random,random,learned,5,0.9550469960955698,0.596,0.9371069182389937
+low_depth,truth + 10% random,random,learned,6,0.952209260168288,0.6,0.9345794392523364
+low_depth,truth + 10% random,random,learned,7,0.9539559800445692,0.594,0.9428571428571428
+low_depth,truth + 10% random,random,learned,8,0.9383000515794958,0.594,0.9138461538461539
+low_depth,truth + 10% random,random,learned,9,0.9449944263140687,0.594,0.928125
+low_depth,truth + 30% random,random,initial,-1,0.6435663252788654,0.436,0.5518987341772152
+low_depth,truth + 30% random,random,learned,0,0.8915018735332675,0.59,0.8385269121813032
+low_depth,truth + 30% random,random,learned,1,0.9369950495784806,0.596,0.9141104294478528
+low_depth,truth + 30% random,random,learned,2,0.8621237960430532,0.586,0.7967479674796748
+low_depth,truth + 30% random,random,learned,3,0.9025061814315203,0.588,0.8571428571428571
+low_depth,truth + 30% random,random,learned,4,0.8971722707009082,0.586,0.8419540229885057
+low_depth,truth + 30% random,random,learned,5,0.9173748150751728,0.602,0.8724637681159421
+low_depth,truth + 30% random,random,learned,6,0.8858320430087194,0.576,0.8318840579710145
+low_depth,truth + 30% random,random,learned,7,0.9060186268022807,0.586,0.8567251461988304
+low_depth,truth + 30% random,random,learned,8,0.9090350813487172,0.594,0.8583815028901735
+low_depth,truth + 30% random,random,learned,9,0.9179880451390189,0.588,0.8776119402985074
+low_depth,rhea + 30% random,random,initial,-1,0.5919410018162673,0.41,0.5061728395061729
+low_depth,rhea + 30% random,random,learned,0,0.8699852585694772,0.576,0.7955801104972375
+low_depth,rhea + 30% random,random,learned,1,0.8799779880463555,0.58,0.807799442896936
+low_depth,rhea + 30% random,random,learned,2,0.8555302039003626,0.586,0.7771883289124668
+low_depth,rhea + 30% random,random,learned,3,0.8658857252410647,0.586,0.7961956521739131
+low_depth,rhea + 30% random,random,learned,4,0.8784186816556954,0.576,0.8112676056338028
+low_depth,rhea + 30% random,random,learned,5,0.8690305668618531,0.564,0.8057142857142857
+low_depth,rhea + 30% random,random,learned,6,0.857165648076295,0.57,0.7916666666666666
+low_depth,rhea + 30% random,random,learned,7,0.8382498660908021,0.574,0.7513089005235603
+low_depth,rhea + 30% random,random,learned,8,0.8630916627352624,0.568,0.7955182072829131
+low_depth,rhea + 30% random,random,learned,9,0.8666417517071151,0.562,0.7982954545454546
+low_depth,rhea's rules,rule-based,initial,-1,0.9002612698499406,0.56,0.8860759493670886
+low_depth,rhea's rules,rule-based,learned,0,0.9023349284368319,0.594,0.8510028653295129
+low_depth,rhea's rules,rule-based,learned,1,0.9009721709332149,0.592,0.8481375358166189
+low_depth,rhea's rules,rule-based,learned,2,0.9040607076185853,0.596,0.8587896253602305
+low_depth,rhea's rules,rule-based,learned,3,0.9009760162813479,0.592,0.8530259365994236
+low_depth,rhea's rules,rule-based,learned,4,0.9060635114054265,0.59,0.8600583090379009
+low_depth,rhea's rules,rule-based,learned,5,0.9071582132216776,0.6,0.8620689655172413
+low_depth,rhea's rules,rule-based,learned,6,0.903408250978988,0.59,0.8526011560693642
+low_depth,rhea's rules,rule-based,learned,7,0.9071928831659012,0.594,0.8608695652173913
+low_depth,rhea's rules,rule-based,learned,8,0.9085870295121259,0.586,0.8567251461988304
+low_depth,rhea's rules,rule-based,learned,9,0.9045459537554073,0.586,0.8567251461988304
+low_depth,flank rule (0.5/0.5),rule-based,initial,-1,0.9163107843225511,0.538,0.9471830985915493
+low_depth,flank rule (0.5/0.5),rule-based,learned,0,0.9386821663616128,0.59,0.921875
+low_depth,flank rule (0.5/0.5),rule-based,learned,1,0.9321202542207697,0.586,0.9127725856697819
+low_depth,flank rule (0.5/0.5),rule-based,learned,2,0.9452889855386232,0.582,0.9478827361563518
+low_depth,flank rule (0.5/0.5),rule-based,learned,3,0.9327147316097836,0.59,0.9104938271604939
+low_depth,flank rule (0.5/0.5),rule-based,learned,4,0.9357691070973835,0.588,0.9158878504672897
+low_depth,flank rule (0.5/0.5),rule-based,learned,5,0.9347543120775336,0.568,0.9466666666666667
+low_depth,flank rule (0.5/0.5),rule-based,learned,6,0.9347708382868224,0.56,0.9556313993174061
+low_depth,flank rule (0.5/0.5),rule-based,learned,7,0.9361474872992931,0.568,0.9435215946843853
+low_depth,flank rule (0.5/0.5),rule-based,learned,8,0.9368289947509618,0.588,0.9216300940438872
+low_depth,flank rule (0.5/0.5),rule-based,learned,9,0.9373086515493337,0.574,0.944078947368421
+low_depth,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.8794933338718832,0.486,0.9604743083003953
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,0,0.933915739094048,0.568,0.9372937293729373
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,1,0.9265892899554754,0.538,0.9676258992805755
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,2,0.9392653660393435,0.55,0.9717314487632509
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,3,0.9306007776970376,0.546,0.9680851063829787
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,4,0.9369879137235751,0.558,0.9587628865979382
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,5,0.9295802004562486,0.554,0.9486301369863014
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,6,0.9088226216410984,0.522,0.9702602230483272
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,7,0.9351110481489338,0.562,0.9493243243243243
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,8,0.9346346073822777,0.546,0.9680851063829787
+low_depth,"flank rule, strict (1/0.5)",rule-based,learned,9,0.9301785653791045,0.558,0.9457627118644067
+low_depth,crude contrast,rule-based,initial,-1,0.28095152915385374,0.25,0.3425414364640884
+low_depth,crude contrast,rule-based,learned,0,0.2781542663507351,0.25,0.3333333333333333
+low_depth,crude contrast,rule-based,learned,1,0.28136409108549004,0.25,0.3415977961432507
+low_depth,crude contrast,rule-based,learned,2,0.2845245280168856,0.256,0.34794520547945207
+low_depth,crude contrast,rule-based,learned,3,0.27950314880073657,0.252,0.34146341463414637
+low_depth,crude contrast,rule-based,learned,4,0.282971958777442,0.254,0.34048257372654156
+low_depth,crude contrast,rule-based,learned,5,0.2765559655898711,0.248,0.3324396782841823
+low_depth,crude contrast,rule-based,learned,6,0.2807753705370188,0.254,0.34048257372654156
+low_depth,crude contrast,rule-based,learned,7,0.2782203539083379,0.258,0.33858267716535434
+low_depth,crude contrast,rule-based,learned,8,0.2753779001636912,0.248,0.33066666666666666
+low_depth,crude contrast,rule-based,learned,9,0.27956224373114674,0.254,0.3377659574468085
+low_depth,"truth, no TD",systematic,initial,-1,0.823319982198487,0.502,1.0
+low_depth,"truth, no TD",systematic,learned,0,0.7908700062286553,0.496,0.9323308270676691
+low_depth,"truth, no TD",systematic,learned,1,0.7961844423230241,0.502,0.943609022556391
+low_depth,"truth, no TD",systematic,learned,2,0.7824433933070297,0.498,0.9154411764705882
+low_depth,"truth, no TD",systematic,learned,3,0.7952826743069079,0.498,0.939622641509434
+low_depth,"truth, no TD",systematic,learned,4,0.7976973290384972,0.5,0.9433962264150944
+low_depth,"truth, no TD",systematic,learned,5,0.7976326189716464,0.5,0.9433962264150944
+low_depth,"truth, no TD",systematic,learned,6,0.7976139571017274,0.5,0.9433962264150944
+low_depth,"truth, no TD",systematic,learned,7,0.7911654030970269,0.498,0.9360902255639098
+low_depth,"truth, no TD",systematic,learned,8,0.7951763214007643,0.498,0.939622641509434
+low_depth,"truth, no TD",systematic,learned,9,0.7940209908850461,0.496,0.9393939393939394
+low_depth,"truth, CG -> INS",systematic,initial,-1,0.7784200385356455,0.478,0.8074324324324325
+low_depth,"truth, CG -> INS",systematic,learned,0,0.7465512152234958,0.494,0.7735849056603774
+low_depth,"truth, CG -> INS",systematic,learned,1,0.7381276978653855,0.492,0.7608695652173914
+low_depth,"truth, CG -> INS",systematic,learned,2,0.7424726710210389,0.492,0.768025078369906
+low_depth,"truth, CG -> INS",systematic,learned,3,0.7519596885612799,0.49,0.7746031746031746
+low_depth,"truth, CG -> INS",systematic,learned,4,0.7499359774724765,0.49,0.7770700636942676
+low_depth,"truth, CG -> INS",systematic,learned,5,0.7535954261552237,0.492,0.7777777777777778
+low_depth,"truth, CG -> INS",systematic,learned,6,0.7551982029652106,0.49,0.7770700636942676
+low_depth,"truth, CG -> INS",systematic,learned,7,0.7468874121206975,0.492,0.7704402515723271
+low_depth,"truth, CG -> INS",systematic,learned,8,0.7505482953023078,0.496,0.7791798107255521
+low_depth,"truth, CG -> INS",systematic,learned,9,0.7450268038822335,0.49,0.7697160883280757
+partial_change,truth + 10% random,random,initial,-1,0.8803646282983945,0.618,0.8419618528610354
+partial_change,truth + 10% random,random,learned,0,0.9554971903292184,0.67,0.938375350140056
+partial_change,truth + 10% random,random,learned,1,0.9589530524804543,0.67,0.9410112359550562
+partial_change,truth + 10% random,random,learned,2,0.9554625773933499,0.67,0.938375350140056
+partial_change,truth + 10% random,random,learned,3,0.9537082577003583,0.67,0.9357541899441341
+partial_change,truth + 10% random,random,learned,4,0.9641619391918334,0.674,0.9519774011299436
+partial_change,truth + 10% random,random,learned,5,0.9615432539174376,0.674,0.9466292134831461
+partial_change,truth + 10% random,random,learned,6,0.9616722093186724,0.674,0.9466292134831461
+partial_change,truth + 10% random,random,learned,7,0.9619823703872528,0.674,0.9466292134831461
+partial_change,truth + 10% random,random,learned,8,0.9639211881125563,0.676,0.949438202247191
+partial_change,truth + 10% random,random,learned,9,0.9572063183205048,0.676,0.9362880886426593
+partial_change,truth + 30% random,random,initial,-1,0.6452136485283645,0.472,0.565947242206235
+partial_change,truth + 30% random,random,learned,0,0.9181385304021424,0.652,0.8810810810810811
+partial_change,truth + 30% random,random,learned,1,0.9396826920093396,0.672,0.9032258064516129
+partial_change,truth + 30% random,random,learned,2,0.9185638399620526,0.664,0.8806366047745358
+partial_change,truth + 30% random,random,learned,3,0.921064938027974,0.65,0.8879781420765027
+partial_change,truth + 30% random,random,learned,4,0.9151124301951943,0.666,0.8675324675324675
+partial_change,truth + 30% random,random,learned,5,0.9393847347230744,0.672,0.9081081081081082
+partial_change,truth + 30% random,random,learned,6,0.9180961947077941,0.652,0.8834688346883469
+partial_change,truth + 30% random,random,learned,7,0.9160901576340909,0.652,0.8810810810810811
+partial_change,truth + 30% random,random,learned,8,0.9117252923877964,0.652,0.8743315508021391
+partial_change,truth + 30% random,random,learned,9,0.9229890523126042,0.662,0.8900804289544236
+partial_change,rhea + 30% random,random,initial,-1,0.5699701405434046,0.414,0.5253807106598984
+partial_change,rhea + 30% random,random,learned,0,0.8091487789516268,0.594,0.7801047120418848
+partial_change,rhea + 30% random,random,learned,1,0.8187402050772477,0.618,0.7888040712468194
+partial_change,rhea + 30% random,random,learned,2,0.8764592110302248,0.65,0.826530612244898
+partial_change,rhea + 30% random,random,learned,3,0.8336855447023676,0.596,0.8296089385474861
+partial_change,rhea + 30% random,random,learned,4,0.8570755112340046,0.628,0.830238726790451
+partial_change,rhea + 30% random,random,learned,5,0.8787456493205418,0.628,0.8306878306878307
+partial_change,rhea + 30% random,random,learned,6,0.823414565732446,0.608,0.8042328042328042
+partial_change,rhea + 30% random,random,learned,7,0.8642765874946163,0.628,0.84
+partial_change,rhea + 30% random,random,learned,8,0.8853237536401569,0.63,0.8583106267029973
+partial_change,rhea + 30% random,random,learned,9,0.7717376451985002,0.578,0.7297979797979798
+partial_change,rhea's rules,rule-based,initial,-1,0.8642046431855283,0.582,0.9297124600638977
+partial_change,rhea's rules,rule-based,learned,0,0.9010264364452296,0.614,0.9359756097560976
+partial_change,rhea's rules,rule-based,learned,1,0.9426759553705392,0.668,0.9175824175824175
+partial_change,rhea's rules,rule-based,learned,2,0.9100819681901613,0.63,0.9183673469387755
+partial_change,rhea's rules,rule-based,learned,3,0.8720151223127557,0.594,0.9166666666666666
+partial_change,rhea's rules,rule-based,learned,4,0.8876424580488457,0.604,0.9292307692307692
+partial_change,rhea's rules,rule-based,learned,5,0.8850322347862072,0.602,0.9318885448916409
+partial_change,rhea's rules,rule-based,learned,6,0.8862303953467389,0.604,0.9320987654320988
+partial_change,rhea's rules,rule-based,learned,7,0.8707526410077239,0.59,0.9305993690851735
+partial_change,rhea's rules,rule-based,learned,8,0.8825664995085739,0.602,0.9233128834355828
+partial_change,rhea's rules,rule-based,learned,9,0.8923406364793909,0.61,0.9298780487804879
+partial_change,flank rule (0.5/0.5),rule-based,initial,-1,0.883235772878162,0.564,0.9791666666666666
+partial_change,flank rule (0.5/0.5),rule-based,learned,0,0.9315967108259384,0.618,0.9840764331210191
+partial_change,flank rule (0.5/0.5),rule-based,learned,1,0.9272996295452245,0.626,0.9542682926829268
+partial_change,flank rule (0.5/0.5),rule-based,learned,2,0.9304176840205723,0.632,0.9518072289156626
+partial_change,flank rule (0.5/0.5),rule-based,learned,3,0.92198163460298,0.622,0.9598765432098766
+partial_change,flank rule (0.5/0.5),rule-based,learned,4,0.9380036991111019,0.626,0.9811912225705329
+partial_change,flank rule (0.5/0.5),rule-based,learned,5,0.9230003469136673,0.606,0.9805825242718447
+partial_change,flank rule (0.5/0.5),rule-based,learned,6,0.933808090535926,0.638,0.9465875370919882
+partial_change,flank rule (0.5/0.5),rule-based,learned,7,0.9294756027700991,0.618,0.9778481012658228
+partial_change,flank rule (0.5/0.5),rule-based,learned,8,0.9166891642450298,0.6,0.9836065573770492
+partial_change,flank rule (0.5/0.5),rule-based,learned,9,0.909624321171493,0.594,0.9769736842105263
+partial_change,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.6689927715399729,0.35,0.9943181818181818
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,0,0.80321517298583,0.478,0.9795081967213115
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,1,0.8176573137921489,0.492,0.9800796812749004
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,2,0.7766517065812231,0.454,0.9700854700854701
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,3,0.8246461781665896,0.502,0.9766536964980544
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,4,0.8184216267180869,0.49,0.98
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,5,0.8286912377205146,0.502,0.9766536964980544
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,6,0.7974436708160249,0.47,0.9832635983263598
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,7,0.809811980785008,0.484,0.979757085020243
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,8,0.7790269990607727,0.454,0.9826839826839827
+partial_change,"flank rule, strict (1/0.5)",rule-based,learned,9,0.812354402756165,0.486,0.9759036144578314
+partial_change,crude contrast,rule-based,initial,-1,0.34105572684709373,0.228,0.5458937198067633
+partial_change,crude contrast,rule-based,learned,0,0.3773022219615285,0.28,0.569672131147541
+partial_change,crude contrast,rule-based,learned,1,0.36186936186936186,0.258,0.5638766519823789
+partial_change,crude contrast,rule-based,learned,2,0.3615734936978144,0.264,0.5458333333333333
+partial_change,crude contrast,rule-based,learned,3,0.36635514494102756,0.264,0.5745614035087719
+partial_change,crude contrast,rule-based,learned,4,0.37598961407475756,0.284,0.5708502024291497
+partial_change,crude contrast,rule-based,learned,5,0.36772438323606743,0.268,0.5588235294117647
+partial_change,crude contrast,rule-based,learned,6,0.37021666860066244,0.278,0.552
+partial_change,crude contrast,rule-based,learned,7,0.36276254792075413,0.266,0.559322033898305
+partial_change,crude contrast,rule-based,learned,8,0.36357856117725545,0.258,0.5565217391304348
+partial_change,crude contrast,rule-based,learned,9,0.37715963191696794,0.29,0.5581395348837209
+partial_change,"truth, no TD",systematic,initial,-1,0.8202443280977313,0.554,1.0
+partial_change,"truth, no TD",systematic,learned,0,0.7955315037302867,0.546,0.9512195121951219
+partial_change,"truth, no TD",systematic,learned,1,0.8001398745430371,0.55,0.9581881533101045
+partial_change,"truth, no TD",systematic,learned,2,0.7999372801751652,0.55,0.9581881533101045
+partial_change,"truth, no TD",systematic,learned,3,0.797543229338622,0.548,0.9547038327526133
+partial_change,"truth, no TD",systematic,learned,4,0.7999372801751652,0.55,0.9581881533101045
+partial_change,"truth, no TD",systematic,learned,5,0.7757953079920384,0.534,0.9175257731958762
+partial_change,"truth, no TD",systematic,learned,6,0.7869644886234886,0.544,0.9347079037800687
+partial_change,"truth, no TD",systematic,learned,7,0.7999372801751652,0.55,0.9581881533101045
+partial_change,"truth, no TD",systematic,learned,8,0.7999372801751652,0.55,0.9581881533101045
+partial_change,"truth, no TD",systematic,learned,9,0.7970010695711451,0.55,0.9515570934256056
+partial_change,"truth, CG -> INS",systematic,initial,-1,0.7811447811447811,0.55,0.8160237388724035
+partial_change,"truth, CG -> INS",systematic,learned,0,0.7629977319803624,0.558,0.7988505747126436
+partial_change,"truth, CG -> INS",systematic,learned,1,0.7510761026607223,0.558,0.7787114845938375
+partial_change,"truth, CG -> INS",systematic,learned,2,0.7582615319121921,0.558,0.7897727272727273
+partial_change,"truth, CG -> INS",systematic,learned,3,0.7599100776567633,0.558,0.792022792022792
+partial_change,"truth, CG -> INS",systematic,learned,4,0.7645050748635475,0.556,0.8075801749271136
+partial_change,"truth, CG -> INS",systematic,learned,5,0.7629718466894976,0.556,0.7914285714285715
+partial_change,"truth, CG -> INS",systematic,learned,6,0.7602467900725385,0.556,0.7891737891737892
+partial_change,"truth, CG -> INS",systematic,learned,7,0.75797390399668,0.558,0.7897727272727273
+partial_change,"truth, CG -> INS",systematic,learned,8,0.7601872385986881,0.556,0.7936962750716332
+partial_change,"truth, CG -> INS",systematic,learned,9,0.7594044193387476,0.556,0.7914285714285715
+uneven_abundance,truth + 10% random,random,initial,-1,0.878649056054729,0.544,0.8364197530864198
+uneven_abundance,truth + 10% random,random,learned,0,0.946727459797757,0.594,0.9339622641509434
+uneven_abundance,truth + 10% random,random,learned,1,0.9520977710884995,0.598,0.940251572327044
+uneven_abundance,truth + 10% random,random,learned,2,0.9551522431310225,0.6,0.9493670886075949
+uneven_abundance,truth + 10% random,random,learned,3,0.9576944473121992,0.602,0.9525316455696202
+uneven_abundance,truth + 10% random,random,learned,4,0.9582325911118214,0.598,0.9522292993630573
+uneven_abundance,truth + 10% random,random,learned,5,0.9546880919714434,0.598,0.9492063492063492
+uneven_abundance,truth + 10% random,random,learned,6,0.9565891125720781,0.6,0.9523809523809523
+uneven_abundance,truth + 10% random,random,learned,7,0.9551522431310225,0.6,0.9493670886075949
+uneven_abundance,truth + 10% random,random,learned,8,0.9575306263013038,0.6,0.9493670886075949
+uneven_abundance,truth + 10% random,random,learned,9,0.9597584593705321,0.6,0.9584664536741214
+uneven_abundance,truth + 30% random,random,initial,-1,0.6413771586843332,0.43,0.5752688172043011
+uneven_abundance,truth + 30% random,random,learned,0,0.9533705370270115,0.596,0.9490445859872612
+uneven_abundance,truth + 30% random,random,learned,1,0.9286469473664053,0.59,0.913312693498452
+uneven_abundance,truth + 30% random,random,learned,2,0.9527307387750645,0.596,0.9490445859872612
+uneven_abundance,truth + 30% random,random,learned,3,0.9451184415608704,0.592,0.9367088607594937
+uneven_abundance,truth + 30% random,random,learned,4,0.9476518270236939,0.598,0.9373040752351097
+uneven_abundance,truth + 30% random,random,learned,5,0.9499942395103139,0.594,0.9428571428571428
+uneven_abundance,truth + 30% random,random,learned,6,0.9443644055899271,0.592,0.9367088607594937
+uneven_abundance,truth + 30% random,random,learned,7,0.9415954533748341,0.588,0.9333333333333333
+uneven_abundance,truth + 30% random,random,learned,8,0.9307961495483115,0.596,0.92
+uneven_abundance,truth + 30% random,random,learned,9,0.9343145907625328,0.59,0.921875
+uneven_abundance,rhea + 30% random,random,initial,-1,0.5925473770716819,0.416,0.5490716180371353
+uneven_abundance,rhea + 30% random,random,learned,0,0.9156691004609391,0.592,0.8885542168674698
+uneven_abundance,rhea + 30% random,random,learned,1,0.8607149743941305,0.592,0.8038147138964578
+uneven_abundance,rhea + 30% random,random,learned,2,0.8984886604835806,0.576,0.8648648648648649
+uneven_abundance,rhea + 30% random,random,learned,3,0.8970275688515965,0.588,0.855072463768116
+uneven_abundance,rhea + 30% random,random,learned,4,0.9198356087140048,0.588,0.8936170212765957
+uneven_abundance,rhea + 30% random,random,learned,5,0.9182931996696123,0.584,0.8987730061349694
+uneven_abundance,rhea + 30% random,random,learned,6,0.9178340114379863,0.588,0.8882175226586103
+uneven_abundance,rhea + 30% random,random,learned,7,0.9112803311438237,0.58,0.8895705521472392
+uneven_abundance,rhea + 30% random,random,learned,8,0.8810899784169751,0.58,0.8362068965517241
+uneven_abundance,rhea + 30% random,random,learned,9,0.9077466294527653,0.584,0.874251497005988
+uneven_abundance,rhea's rules,rule-based,initial,-1,0.9188855681479042,0.574,0.9053627760252366
+uneven_abundance,rhea's rules,rule-based,learned,0,0.9508551467766365,0.594,0.9428571428571428
+uneven_abundance,rhea's rules,rule-based,learned,1,0.9409956500762405,0.592,0.925
+uneven_abundance,rhea's rules,rule-based,learned,2,0.9466796307440671,0.596,0.93125
+uneven_abundance,rhea's rules,rule-based,learned,3,0.9414317876872772,0.594,0.922360248447205
+uneven_abundance,rhea's rules,rule-based,learned,4,0.9457524266641926,0.594,0.9310344827586207
+uneven_abundance,rhea's rules,rule-based,learned,5,0.9512600291581661,0.596,0.9400630914826499
+uneven_abundance,rhea's rules,rule-based,learned,6,0.9528006720271125,0.596,0.9430379746835443
+uneven_abundance,rhea's rules,rule-based,learned,7,0.9481562187145464,0.596,0.9341692789968652
+uneven_abundance,rhea's rules,rule-based,learned,8,0.9444905863778672,0.594,0.928125
+uneven_abundance,rhea's rules,rule-based,learned,9,0.9338495499498219,0.594,0.9054878048780488
+uneven_abundance,flank rule (0.5/0.5),rule-based,initial,-1,0.9331144267346212,0.552,0.968421052631579
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,0,0.9633620054920815,0.59,0.9768211920529801
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,1,0.9543312637614058,0.592,0.9517684887459807
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,2,0.9538904230493411,0.592,0.9517684887459807
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,3,0.9513871322731756,0.592,0.9456869009584664
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,4,0.9633620054920815,0.59,0.9768211920529801
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,5,0.9553075393418515,0.592,0.9548387096774194
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,6,0.9538904230493411,0.592,0.9517684887459807
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,7,0.9617618081230788,0.592,0.9704918032786886
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,8,0.9545643686363466,0.592,0.9517684887459807
+uneven_abundance,flank rule (0.5/0.5),rule-based,learned,9,0.9526496789368643,0.58,0.9731543624161074
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,initial,-1,0.8589991607857373,0.466,0.9748953974895398
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,0,0.9416119245146083,0.56,0.975609756097561
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,1,0.9446754545726052,0.58,0.9508196721311475
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,2,0.9404969580609971,0.574,0.9534883720930233
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,3,0.9401650736677071,0.57,0.9531772575250836
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,4,0.91989007257795,0.534,0.978021978021978
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,5,0.9347726575638368,0.564,0.9527027027027027
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,6,0.9407896712722268,0.572,0.9501661129568106
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,7,0.9388750795340578,0.572,0.9533333333333334
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,8,0.9305262406968291,0.562,0.9429530201342282
+uneven_abundance,"flank rule, strict (1/0.5)",rule-based,learned,9,0.9347045954990806,0.562,0.95578231292517
+uneven_abundance,crude contrast,rule-based,initial,-1,0.2750495179617783,0.228,0.34365325077399383
+uneven_abundance,crude contrast,rule-based,learned,0,0.2714662034325355,0.228,0.338368580060423
+uneven_abundance,crude contrast,rule-based,learned,1,0.2754534077545971,0.236,0.3431952662721893
+uneven_abundance,crude contrast,rule-based,learned,2,0.26981943947642956,0.23,0.3343195266272189
+uneven_abundance,crude contrast,rule-based,learned,3,0.26994631312538536,0.232,0.3343108504398827
+uneven_abundance,crude contrast,rule-based,learned,4,0.2708334460776696,0.228,0.338368580060423
+uneven_abundance,crude contrast,rule-based,learned,5,0.27044161003988837,0.238,0.3371757925072046
+uneven_abundance,crude contrast,rule-based,learned,6,0.2707672750839161,0.23,0.3343195266272189
+uneven_abundance,crude contrast,rule-based,learned,7,0.27011526883216436,0.228,0.33532934131736525
+uneven_abundance,crude contrast,rule-based,learned,8,0.27792029416070335,0.234,0.3484848484848485
+uneven_abundance,crude contrast,rule-based,learned,9,0.2734902831398374,0.236,0.34110787172011664
+uneven_abundance,"truth, no TD",systematic,initial,-1,0.8223180076628352,0.492,1.0
+uneven_abundance,"truth, no TD",systematic,learned,0,0.800521336412109,0.5,0.9689922480620154
+uneven_abundance,"truth, no TD",systematic,learned,1,0.7923092047175236,0.498,0.950381679389313
+uneven_abundance,"truth, no TD",systematic,learned,2,0.7908008531667375,0.496,0.9501915708812261
+uneven_abundance,"truth, no TD",systematic,learned,3,0.7947711002162915,0.5,0.9541984732824428
+uneven_abundance,"truth, no TD",systematic,learned,4,0.7930962965321969,0.5,0.9505703422053232
+uneven_abundance,"truth, no TD",systematic,learned,5,0.7945618507546609,0.5,0.9541984732824428
+uneven_abundance,"truth, no TD",systematic,learned,6,0.7909279706248359,0.498,0.9467680608365019
+uneven_abundance,"truth, no TD",systematic,learned,7,0.7945310333621228,0.496,0.9538461538461539
+uneven_abundance,"truth, no TD",systematic,learned,8,0.7945618507546609,0.5,0.9541984732824428
+uneven_abundance,"truth, no TD",systematic,learned,9,0.7960446291256605,0.498,0.9540229885057471
+uneven_abundance,"truth, CG -> INS",systematic,initial,-1,0.7719298245614036,0.458,0.7842465753424658
+uneven_abundance,"truth, CG -> INS",systematic,learned,0,0.7369623393461326,0.478,0.7555555555555555
+uneven_abundance,"truth, CG -> INS",systematic,learned,1,0.7499013691811443,0.48,0.775974025974026
+uneven_abundance,"truth, CG -> INS",systematic,learned,2,0.7423553476833981,0.482,0.7667731629392971
+uneven_abundance,"truth, CG -> INS",systematic,learned,3,0.7369605566074925,0.48,0.7587301587301587
+uneven_abundance,"truth, CG -> INS",systematic,learned,4,0.7398877547601885,0.48,0.7635782747603834
+uneven_abundance,"truth, CG -> INS",systematic,learned,5,0.7354073960826882,0.478,0.7555555555555555
+uneven_abundance,"truth, CG -> INS",systematic,learned,6,0.7369605566074925,0.48,0.7587301587301587
+uneven_abundance,"truth, CG -> INS",systematic,learned,7,0.7384157863604947,0.48,0.7611464968152867
+uneven_abundance,"truth, CG -> INS",systematic,learned,8,0.7398877547601885,0.48,0.7635782747603834
+uneven_abundance,"truth, CG -> INS",systematic,learned,9,0.7398877547601885,0.478,0.7603833865814696

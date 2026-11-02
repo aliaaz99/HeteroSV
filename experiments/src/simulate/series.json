@@ -1,0 +1,114 @@
+{
+  "_abundance_note": "NanoSim metagenome abundances are percentages of BASES per strain (it fills a base quota per strain). rhea's inputs, recovered from the bases of its stored reads (inputs/rhea_zymo_profile/base_shares.tsv), are the D6300 composition: T0 12% per bacterium and 2% per yeast; T1 variant only (12%, yeast 2%) for half of the species and 6% + 6% (yeast 1% + 1%) for the other half, i.e. species totals constant over time.",
+  "_comment": "Zymo simulation series for HeteroSV. Each series changes one factor of rhea's Zymo simulation (Curry et al. 2024). 'sv_set' names the variant genomes (step 2); series that share an sv_set have identical SVs and differ only in their reads.",
+  "common": {
+    "references": "_inputs/genome_list.tsv",
+    "dna_types": "_inputs/dna_type_list.tsv",
+    "nanosim_model": "_inputs/nanosim_model/metagenome_ERR3152364_Even/training",
+    "nanosim_version": "3.1.0",
+    "survivor_version": "1.0.7",
+    "flye": "2.9.3 --nano-raw --meta --keep-haplotypes",
+    "minigraph": "0.20",
+    "minimap2": "2.24",
+    "svs_per_genome": {
+      "indels": 20,
+      "tandem_duplications": 10,
+      "complex_indels": 10
+    },
+    "survivor": {
+      "homozygous_ratio": 0.5,
+      "number_haploid": 1
+    },
+    "variant_only_species": [
+      "Listeria_monocytogenes",
+      "Bacillus_subtilis",
+      "Staphylococcus_aureus",
+      "Enterococcus_faecalis",
+      "Saccharomyces_cerevisiae"
+    ],
+    "mixed_species": [
+      "Lactobacillus_fermentum",
+      "Pseudomonas_aeruginosa",
+      "Escherichia_coli",
+      "Salmonella_enterica",
+      "Cryptococcus_neoformans"
+    ]
+  },
+  "sv_sets": {
+    "standard": {
+      "length_bp": [
+        500,
+        2000
+      ],
+      "seed": 101
+    },
+    "short": {
+      "length_bp": [
+        100,
+        500
+      ],
+      "seed": 102
+    },
+    "long": {
+      "length_bp": [
+        2000,
+        20000
+      ],
+      "seed": 103
+    }
+  },
+  "series": {
+    "replica": {
+      "description": "rhea's Zymo simulation (pipeline check); rhea's D6300 abundances",
+      "sv_set": "standard",
+      "reads_per_sample": 500000,
+      "abundance": "rhea_d6300",
+      "seed": 201
+    },
+    "short_sv": {
+      "description": "SVs of 100-500 bp",
+      "sv_set": "short",
+      "reads_per_sample": 500000,
+      "abundance": "rhea_d6300",
+      "seed": 202
+    },
+    "long_sv": {
+      "description": "SVs of 2-20 kb",
+      "sv_set": "long",
+      "reads_per_sample": 500000,
+      "abundance": "rhea_d6300",
+      "seed": 203
+    },
+    "low_depth": {
+      "description": "about 15x instead of about 60x per bacterial genome",
+      "sv_set": "standard",
+      "reads_per_sample": 120000,
+      "abundance": "rhea_d6300",
+      "seed": 204
+    },
+    "partial_change": {
+      "description": "every species: variant strain 20% at T0 and 60% at T1; species totals as rhea's (D6300)",
+      "sv_set": "standard",
+      "reads_per_sample": 500000,
+      "abundance": {
+        "type": "partial",
+        "variant_fraction": [
+          0.2,
+          0.6
+        ]
+      },
+      "seed": 205
+    },
+    "uneven_abundance": {
+      "description": "bacterial species abundances geometric over a 15-fold range (random order, seed), yeasts as rhea; species totals constant over time, rhea's T1 composition",
+      "sv_set": "standard",
+      "reads_per_sample": 500000,
+      "abundance": {
+        "type": "uneven",
+        "fold_range": 15,
+        "order_seed": 206
+      },
+      "seed": 206
+    }
+  }
+}

@@ -1,0 +1,17 @@
+series,caller,seconds_from_reads,recall,precision,calls,calls_without_sequence,other_type_calls,bins_t0,bins_t1,pairs,pairs_with_calls
+replica,MAG workflow,2743.69,0.32,0.9464285714285714,168.0,0.0,7.0,9.0,10.0,9.0,9.0
+replica,Assembly comparison,2495.69,0.39,0.941747572815534,206.0,0.0,8.0,,,,
+replica,Sniffles2,1389.7,0.544,0.9194630872483222,298.0,0.0,0.0,,,,
+long_sv,MAG workflow,2691.8,0.32,0.9034090909090909,176.0,0.0,16.0,10.0,17.0,10.0,8.0
+long_sv,Assembly comparison,2453.8,0.322,0.8385416666666666,192.0,0.0,28.0,,,,
+long_sv,Sniffles2,1451.33,0.432,0.9666666666666667,210.0,4.0,0.0,,,,
+low_depth,MAG workflow,964.85,0.434,0.5535714285714286,392.0,0.0,146.0,11.0,10.0,10.0,10.0
+low_depth,Assembly comparison,826.85,0.416,0.5187032418952618,401.0,0.0,162.0,,,,
+low_depth,Sniffles2,475.29,0.276,0.9657534246575342,146.0,0.0,0.0,,,,
+partial_change,MAG workflow,2546.12,0.052,0.2222222222222222,117.0,0.0,81.0,11.0,11.0,10.0,10.0
+partial_change,Assembly comparison,2326.12,0.064,0.21052631578947367,152.0,0.0,110.0,,,,
+partial_change,Sniffles2,1331.77,0.016,1.0,8.0,0.0,0.0,,,,
+uneven_abundance,MAG workflow,2535.4,0.382,0.9405940594059405,202.0,0.0,8.0,10.0,11.0,10.0,10.0
+uneven_abundance,Assembly comparison,2284.4,0.382,0.926829268292683,205.0,0.0,10.0,,,,
+uneven_abundance,Sniffles2,1320.91,0.532,0.9096989966555183,299.0,0.0,0.0,,,,
+zymo (rhea's paper),MAG workflow,,0.134,,,,,,,,

@@ -1,0 +1,9 @@
+# Annotation of the cheese co-assembly (experiments/prepare/cheese_annotation.sh).
+name: heterosv-annotation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - genomad=1.11.0
+  - metabat2=2.15
+  - sourmash_plugin_branchwater=0.9.15

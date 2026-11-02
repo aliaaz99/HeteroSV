@@ -1,0 +1,17 @@
+heterosv real dataset=zymo nodes=741 edges=988 device=cuda features_s=0.023 rule_s=0.039 training_s=0.559 inference_s=0.000 total_s=0.621
+heterosv real dataset=cheese_step0 nodes=3920 edges=3273 device=cuda features_s=0.082 rule_s=0.138 training_s=1.083 inference_s=0.001 total_s=1.304
+heterosv real dataset=cheese_step1 nodes=3920 edges=3273 device=cuda features_s=0.098 rule_s=0.151 training_s=0.634 inference_s=0.001 total_s=0.883
+heterosv real dataset=cheese_step2 nodes=3920 edges=3273 device=cuda features_s=0.099 rule_s=0.153 training_s=1.240 inference_s=0.001 total_s=1.492
+heterosv real dataset=cheese_step3 nodes=3920 edges=3273 device=cuda features_s=0.098 rule_s=0.156 training_s=1.096 inference_s=0.001 total_s=1.351
+heterosv real dataset=zymo nodes=741 edges=988 device=cpu features_s=0.024 rule_s=0.041 training_s=1.652 inference_s=0.001 total_s=1.718
+heterosv real dataset=cheese_step0 nodes=3920 edges=3273 device=cpu features_s=0.085 rule_s=0.149 training_s=4.707 inference_s=0.004 total_s=4.945
+heterosv real dataset=cheese_step1 nodes=3920 edges=3273 device=cpu features_s=0.086 rule_s=0.145 training_s=9.368 inference_s=0.004 total_s=9.603
+heterosv real dataset=cheese_step2 nodes=3920 edges=3273 device=cpu features_s=0.085 rule_s=0.156 training_s=8.008 inference_s=0.004 total_s=8.253
+heterosv real dataset=cheese_step3 nodes=3920 edges=3273 device=cpu features_s=0.086 rule_s=0.147 training_s=11.199 inference_s=0.004 total_s=11.436
+heterosv scale dataset=zymo_x1 nodes=741 edges=988 device=cuda features_s=0.024 rule_s=0.040 training_s=0.654 inference_s=0.000 total_s=0.717
+heterosv scale dataset=zymo_x10 nodes=7410 edges=9880 device=cuda features_s=0.231 rule_s=0.402 training_s=0.765 inference_s=0.001 total_s=1.399
+heterosv scale dataset=zymo_x100 nodes=74100 edges=98800 device=cuda features_s=2.402 rule_s=4.129 training_s=2.711 inference_s=0.003 total_s=9.245
+heterosv scale dataset=zymo_x1000 nodes=741000 edges=988000 device=cuda features_s=23.710 rule_s=40.928 training_s=26.167 inference_s=0.055 total_s=90.860
+heterosv scale dataset=zymo_x1 nodes=741 edges=988 device=cpu features_s=0.023 rule_s=0.040 training_s=1.815 inference_s=0.001 total_s=1.879
+heterosv scale dataset=zymo_x10 nodes=7410 edges=9880 device=cpu features_s=0.236 rule_s=0.393 training_s=16.377 inference_s=0.008 total_s=17.014
+heterosv scale dataset=zymo_x100 nodes=74100 edges=98800 device=cpu features_s=2.321 rule_s=4.039 training_s=132.746 inference_s=0.099 total_s=139.205

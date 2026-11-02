@@ -1,0 +1,12 @@
+# NanoSim and SURVIVOR, for simulating the series (experiments/prepare/simulate_series.sh).
+name: heterosv-simulate
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.8
+  - nanosim=3.1.0
+  - numpy=1.23.5
+  - survivor=1.0.7
+  - biopython
+  - pandas

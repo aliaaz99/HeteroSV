@@ -1,0 +1,81 @@
+series,caller,sv_type,detected,total,recall
+replica,MAG workflow,insertion,37,97,0.38144329896907214
+replica,MAG workflow,deletion,49,103,0.47572815533980584
+replica,MAG workflow,complex gain,13,100,0.13
+replica,MAG workflow,complex loss,14,100,0.14
+replica,MAG workflow,tandem dup,47,100,0.47
+replica,Assembly comparison,insertion,51,97,0.5257731958762887
+replica,Assembly comparison,deletion,55,103,0.5339805825242718
+replica,Assembly comparison,complex gain,14,100,0.14
+replica,Assembly comparison,complex loss,18,100,0.18
+replica,Assembly comparison,tandem dup,57,100,0.57
+replica,Sniffles2,insertion,67,97,0.6907216494845361
+replica,Sniffles2,deletion,79,103,0.7669902912621359
+replica,Sniffles2,complex gain,16,100,0.16
+replica,Sniffles2,complex loss,39,100,0.39
+replica,Sniffles2,tandem dup,71,100,0.71
+long_sv,MAG workflow,insertion,54,103,0.5242718446601942
+long_sv,MAG workflow,deletion,44,97,0.4536082474226804
+long_sv,MAG workflow,complex gain,23,100,0.23
+long_sv,MAG workflow,complex loss,24,100,0.24
+long_sv,MAG workflow,tandem dup,15,100,0.15
+long_sv,Assembly comparison,insertion,56,103,0.5436893203883495
+long_sv,Assembly comparison,deletion,44,97,0.4536082474226804
+long_sv,Assembly comparison,complex gain,23,100,0.23
+long_sv,Assembly comparison,complex loss,22,100,0.22
+long_sv,Assembly comparison,tandem dup,16,100,0.16
+long_sv,Sniffles2,insertion,31,103,0.30097087378640774
+long_sv,Sniffles2,deletion,74,97,0.7628865979381443
+long_sv,Sniffles2,complex gain,6,100,0.06
+long_sv,Sniffles2,complex loss,28,100,0.28
+long_sv,Sniffles2,tandem dup,77,100,0.77
+low_depth,MAG workflow,insertion,63,97,0.6494845360824743
+low_depth,MAG workflow,deletion,58,103,0.5631067961165048
+low_depth,MAG workflow,complex gain,12,100,0.12
+low_depth,MAG workflow,complex loss,19,100,0.19
+low_depth,MAG workflow,tandem dup,65,100,0.65
+low_depth,Assembly comparison,insertion,61,97,0.6288659793814433
+low_depth,Assembly comparison,deletion,54,103,0.5242718446601942
+low_depth,Assembly comparison,complex gain,11,100,0.11
+low_depth,Assembly comparison,complex loss,19,100,0.19
+low_depth,Assembly comparison,tandem dup,63,100,0.63
+low_depth,Sniffles2,insertion,27,97,0.27835051546391754
+low_depth,Sniffles2,deletion,44,103,0.42718446601941745
+low_depth,Sniffles2,complex gain,6,100,0.06
+low_depth,Sniffles2,complex loss,18,100,0.18
+low_depth,Sniffles2,tandem dup,43,100,0.43
+partial_change,MAG workflow,insertion,3,97,0.030927835051546393
+partial_change,MAG workflow,deletion,6,103,0.05825242718446602
+partial_change,MAG workflow,complex gain,4,100,0.04
+partial_change,MAG workflow,complex loss,4,100,0.04
+partial_change,MAG workflow,tandem dup,9,100,0.09
+partial_change,Assembly comparison,insertion,4,97,0.041237113402061855
+partial_change,Assembly comparison,deletion,6,103,0.05825242718446602
+partial_change,Assembly comparison,complex gain,4,100,0.04
+partial_change,Assembly comparison,complex loss,7,100,0.07
+partial_change,Assembly comparison,tandem dup,11,100,0.11
+partial_change,Sniffles2,insertion,3,97,0.030927835051546393
+partial_change,Sniffles2,deletion,2,103,0.019417475728155338
+partial_change,Sniffles2,complex gain,0,100,0.0
+partial_change,Sniffles2,complex loss,1,100,0.01
+partial_change,Sniffles2,tandem dup,2,100,0.02
+uneven_abundance,MAG workflow,insertion,54,97,0.5567010309278351
+uneven_abundance,MAG workflow,deletion,49,103,0.47572815533980584
+uneven_abundance,MAG workflow,complex gain,13,100,0.13
+uneven_abundance,MAG workflow,complex loss,20,100,0.2
+uneven_abundance,MAG workflow,tandem dup,55,100,0.55
+uneven_abundance,Assembly comparison,insertion,54,97,0.5567010309278351
+uneven_abundance,Assembly comparison,deletion,49,103,0.47572815533980584
+uneven_abundance,Assembly comparison,complex gain,13,100,0.13
+uneven_abundance,Assembly comparison,complex loss,20,100,0.2
+uneven_abundance,Assembly comparison,tandem dup,55,100,0.55
+uneven_abundance,Sniffles2,insertion,70,97,0.7216494845360825
+uneven_abundance,Sniffles2,deletion,81,103,0.7864077669902912
+uneven_abundance,Sniffles2,complex gain,12,100,0.12
+uneven_abundance,Sniffles2,complex loss,39,100,0.39
+uneven_abundance,Sniffles2,tandem dup,64,100,0.64
+zymo (rhea's paper),MAG workflow,insertion,19,105,0.18095238095238095
+zymo (rhea's paper),MAG workflow,deletion,23,95,0.24210526315789474
+zymo (rhea's paper),MAG workflow,complex gain,0,100,0.0
+zymo (rhea's paper),MAG workflow,complex loss,0,100,0.0
+zymo (rhea's paper),MAG workflow,tandem dup,25,100,0.25

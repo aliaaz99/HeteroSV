@@ -1,0 +1,226 @@
+series,mode,rule,sv_type,detected,total,recall
+replica,default,genotype,insertion,67,97,0.6907216494845361
+replica,default,genotype,deletion,79,103,0.7669902912621359
+replica,default,genotype,complex gain,16,100,0.16
+replica,default,genotype,complex loss,39,100,0.39
+replica,default,genotype,tandem dup,71,100,0.71
+replica,default,support,insertion,67,97,0.6907216494845361
+replica,default,support,deletion,79,103,0.7669902912621359
+replica,default,support,complex gain,16,100,0.16
+replica,default,support,complex loss,39,100,0.39
+replica,default,support,tandem dup,71,100,0.71
+replica,default,per_sample,insertion,67,97,0.6907216494845361
+replica,default,per_sample,deletion,79,103,0.7669902912621359
+replica,default,per_sample,complex gain,16,100,0.16
+replica,default,per_sample,complex loss,39,100,0.39
+replica,default,per_sample,tandem dup,71,100,0.71
+replica,mosaic,genotype,insertion,0,97,0.0
+replica,mosaic,genotype,deletion,0,103,0.0
+replica,mosaic,genotype,complex gain,0,100,0.0
+replica,mosaic,genotype,complex loss,3,100,0.03
+replica,mosaic,genotype,tandem dup,0,100,0.0
+replica,mosaic,support,insertion,0,97,0.0
+replica,mosaic,support,deletion,0,103,0.0
+replica,mosaic,support,complex gain,0,100,0.0
+replica,mosaic,support,complex loss,3,100,0.03
+replica,mosaic,support,tandem dup,0,100,0.0
+replica,mosaic,per_sample,insertion,2,97,0.020618556701030927
+replica,mosaic,per_sample,deletion,0,103,0.0
+replica,mosaic,per_sample,complex gain,6,100,0.06
+replica,mosaic,per_sample,complex loss,9,100,0.09
+replica,mosaic,per_sample,tandem dup,2,100,0.02
+replica,mosaic_germline,genotype,insertion,67,97,0.6907216494845361
+replica,mosaic_germline,genotype,deletion,79,103,0.7669902912621359
+replica,mosaic_germline,genotype,complex gain,16,100,0.16
+replica,mosaic_germline,genotype,complex loss,39,100,0.39
+replica,mosaic_germline,genotype,tandem dup,71,100,0.71
+replica,mosaic_germline,support,insertion,67,97,0.6907216494845361
+replica,mosaic_germline,support,deletion,79,103,0.7669902912621359
+replica,mosaic_germline,support,complex gain,16,100,0.16
+replica,mosaic_germline,support,complex loss,39,100,0.39
+replica,mosaic_germline,support,tandem dup,71,100,0.71
+replica,mosaic_germline,per_sample,insertion,69,97,0.711340206185567
+replica,mosaic_germline,per_sample,deletion,79,103,0.7669902912621359
+replica,mosaic_germline,per_sample,complex gain,19,100,0.19
+replica,mosaic_germline,per_sample,complex loss,42,100,0.42
+replica,mosaic_germline,per_sample,tandem dup,73,100,0.73
+long_sv,default,genotype,insertion,31,103,0.30097087378640774
+long_sv,default,genotype,deletion,74,97,0.7628865979381443
+long_sv,default,genotype,complex gain,6,100,0.06
+long_sv,default,genotype,complex loss,28,100,0.28
+long_sv,default,genotype,tandem dup,77,100,0.77
+long_sv,default,support,insertion,31,103,0.30097087378640774
+long_sv,default,support,deletion,74,97,0.7628865979381443
+long_sv,default,support,complex gain,6,100,0.06
+long_sv,default,support,complex loss,28,100,0.28
+long_sv,default,support,tandem dup,77,100,0.77
+long_sv,default,per_sample,insertion,31,103,0.30097087378640774
+long_sv,default,per_sample,deletion,74,97,0.7628865979381443
+long_sv,default,per_sample,complex gain,6,100,0.06
+long_sv,default,per_sample,complex loss,28,100,0.28
+long_sv,default,per_sample,tandem dup,77,100,0.77
+long_sv,mosaic,genotype,insertion,0,103,0.0
+long_sv,mosaic,genotype,deletion,0,97,0.0
+long_sv,mosaic,genotype,complex gain,0,100,0.0
+long_sv,mosaic,genotype,complex loss,0,100,0.0
+long_sv,mosaic,genotype,tandem dup,0,100,0.0
+long_sv,mosaic,support,insertion,0,103,0.0
+long_sv,mosaic,support,deletion,0,97,0.0
+long_sv,mosaic,support,complex gain,0,100,0.0
+long_sv,mosaic,support,complex loss,0,100,0.0
+long_sv,mosaic,support,tandem dup,0,100,0.0
+long_sv,mosaic,per_sample,insertion,0,103,0.0
+long_sv,mosaic,per_sample,deletion,5,97,0.05154639175257732
+long_sv,mosaic,per_sample,complex gain,0,100,0.0
+long_sv,mosaic,per_sample,complex loss,5,100,0.05
+long_sv,mosaic,per_sample,tandem dup,1,100,0.01
+long_sv,mosaic_germline,genotype,insertion,31,103,0.30097087378640774
+long_sv,mosaic_germline,genotype,deletion,74,97,0.7628865979381443
+long_sv,mosaic_germline,genotype,complex gain,6,100,0.06
+long_sv,mosaic_germline,genotype,complex loss,28,100,0.28
+long_sv,mosaic_germline,genotype,tandem dup,77,100,0.77
+long_sv,mosaic_germline,support,insertion,31,103,0.30097087378640774
+long_sv,mosaic_germline,support,deletion,74,97,0.7628865979381443
+long_sv,mosaic_germline,support,complex gain,6,100,0.06
+long_sv,mosaic_germline,support,complex loss,28,100,0.28
+long_sv,mosaic_germline,support,tandem dup,77,100,0.77
+long_sv,mosaic_germline,per_sample,insertion,31,103,0.30097087378640774
+long_sv,mosaic_germline,per_sample,deletion,77,97,0.7938144329896907
+long_sv,mosaic_germline,per_sample,complex gain,6,100,0.06
+long_sv,mosaic_germline,per_sample,complex loss,31,100,0.31
+long_sv,mosaic_germline,per_sample,tandem dup,78,100,0.78
+low_depth,default,genotype,insertion,27,97,0.27835051546391754
+low_depth,default,genotype,deletion,44,103,0.42718446601941745
+low_depth,default,genotype,complex gain,6,100,0.06
+low_depth,default,genotype,complex loss,18,100,0.18
+low_depth,default,genotype,tandem dup,43,100,0.43
+low_depth,default,support,insertion,27,97,0.27835051546391754
+low_depth,default,support,deletion,44,103,0.42718446601941745
+low_depth,default,support,complex gain,6,100,0.06
+low_depth,default,support,complex loss,18,100,0.18
+low_depth,default,support,tandem dup,43,100,0.43
+low_depth,default,per_sample,insertion,27,97,0.27835051546391754
+low_depth,default,per_sample,deletion,44,103,0.42718446601941745
+low_depth,default,per_sample,complex gain,6,100,0.06
+low_depth,default,per_sample,complex loss,18,100,0.18
+low_depth,default,per_sample,tandem dup,43,100,0.43
+low_depth,mosaic,genotype,insertion,0,97,0.0
+low_depth,mosaic,genotype,deletion,0,103,0.0
+low_depth,mosaic,genotype,complex gain,0,100,0.0
+low_depth,mosaic,genotype,complex loss,0,100,0.0
+low_depth,mosaic,genotype,tandem dup,1,100,0.01
+low_depth,mosaic,support,insertion,0,97,0.0
+low_depth,mosaic,support,deletion,0,103,0.0
+low_depth,mosaic,support,complex gain,0,100,0.0
+low_depth,mosaic,support,complex loss,0,100,0.0
+low_depth,mosaic,support,tandem dup,1,100,0.01
+low_depth,mosaic,per_sample,insertion,0,97,0.0
+low_depth,mosaic,per_sample,deletion,0,103,0.0
+low_depth,mosaic,per_sample,complex gain,1,100,0.01
+low_depth,mosaic,per_sample,complex loss,2,100,0.02
+low_depth,mosaic,per_sample,tandem dup,1,100,0.01
+low_depth,mosaic_germline,genotype,insertion,30,97,0.30927835051546393
+low_depth,mosaic_germline,genotype,deletion,44,103,0.42718446601941745
+low_depth,mosaic_germline,genotype,complex gain,7,100,0.07
+low_depth,mosaic_germline,genotype,complex loss,18,100,0.18
+low_depth,mosaic_germline,genotype,tandem dup,43,100,0.43
+low_depth,mosaic_germline,support,insertion,30,97,0.30927835051546393
+low_depth,mosaic_germline,support,deletion,44,103,0.42718446601941745
+low_depth,mosaic_germline,support,complex gain,7,100,0.07
+low_depth,mosaic_germline,support,complex loss,18,100,0.18
+low_depth,mosaic_germline,support,tandem dup,43,100,0.43
+low_depth,mosaic_germline,per_sample,insertion,30,97,0.30927835051546393
+low_depth,mosaic_germline,per_sample,deletion,44,103,0.42718446601941745
+low_depth,mosaic_germline,per_sample,complex gain,7,100,0.07
+low_depth,mosaic_germline,per_sample,complex loss,19,100,0.19
+low_depth,mosaic_germline,per_sample,tandem dup,43,100,0.43
+partial_change,default,genotype,insertion,3,97,0.030927835051546393
+partial_change,default,genotype,deletion,2,103,0.019417475728155338
+partial_change,default,genotype,complex gain,0,100,0.0
+partial_change,default,genotype,complex loss,1,100,0.01
+partial_change,default,genotype,tandem dup,2,100,0.02
+partial_change,default,support,insertion,0,97,0.0
+partial_change,default,support,deletion,0,103,0.0
+partial_change,default,support,complex gain,0,100,0.0
+partial_change,default,support,complex loss,0,100,0.0
+partial_change,default,support,tandem dup,2,100,0.02
+partial_change,default,per_sample,insertion,3,97,0.030927835051546393
+partial_change,default,per_sample,deletion,2,103,0.019417475728155338
+partial_change,default,per_sample,complex gain,0,100,0.0
+partial_change,default,per_sample,complex loss,1,100,0.01
+partial_change,default,per_sample,tandem dup,2,100,0.02
+partial_change,mosaic,genotype,insertion,3,97,0.030927835051546393
+partial_change,mosaic,genotype,deletion,2,103,0.019417475728155338
+partial_change,mosaic,genotype,complex gain,0,100,0.0
+partial_change,mosaic,genotype,complex loss,1,100,0.01
+partial_change,mosaic,genotype,tandem dup,0,100,0.0
+partial_change,mosaic,support,insertion,0,97,0.0
+partial_change,mosaic,support,deletion,0,103,0.0
+partial_change,mosaic,support,complex gain,0,100,0.0
+partial_change,mosaic,support,complex loss,0,100,0.0
+partial_change,mosaic,support,tandem dup,0,100,0.0
+partial_change,mosaic,per_sample,insertion,0,97,0.0
+partial_change,mosaic,per_sample,deletion,0,103,0.0
+partial_change,mosaic,per_sample,complex gain,0,100,0.0
+partial_change,mosaic,per_sample,complex loss,0,100,0.0
+partial_change,mosaic,per_sample,tandem dup,0,100,0.0
+partial_change,mosaic_germline,genotype,insertion,3,97,0.030927835051546393
+partial_change,mosaic_germline,genotype,deletion,2,103,0.019417475728155338
+partial_change,mosaic_germline,genotype,complex gain,0,100,0.0
+partial_change,mosaic_germline,genotype,complex loss,1,100,0.01
+partial_change,mosaic_germline,genotype,tandem dup,2,100,0.02
+partial_change,mosaic_germline,support,insertion,0,97,0.0
+partial_change,mosaic_germline,support,deletion,0,103,0.0
+partial_change,mosaic_germline,support,complex gain,0,100,0.0
+partial_change,mosaic_germline,support,complex loss,0,100,0.0
+partial_change,mosaic_germline,support,tandem dup,2,100,0.02
+partial_change,mosaic_germline,per_sample,insertion,0,97,0.0
+partial_change,mosaic_germline,per_sample,deletion,0,103,0.0
+partial_change,mosaic_germline,per_sample,complex gain,0,100,0.0
+partial_change,mosaic_germline,per_sample,complex loss,0,100,0.0
+partial_change,mosaic_germline,per_sample,tandem dup,2,100,0.02
+uneven_abundance,default,genotype,insertion,70,97,0.7216494845360825
+uneven_abundance,default,genotype,deletion,81,103,0.7864077669902912
+uneven_abundance,default,genotype,complex gain,12,100,0.12
+uneven_abundance,default,genotype,complex loss,39,100,0.39
+uneven_abundance,default,genotype,tandem dup,64,100,0.64
+uneven_abundance,default,support,insertion,70,97,0.7216494845360825
+uneven_abundance,default,support,deletion,81,103,0.7864077669902912
+uneven_abundance,default,support,complex gain,12,100,0.12
+uneven_abundance,default,support,complex loss,39,100,0.39
+uneven_abundance,default,support,tandem dup,64,100,0.64
+uneven_abundance,default,per_sample,insertion,70,97,0.7216494845360825
+uneven_abundance,default,per_sample,deletion,81,103,0.7864077669902912
+uneven_abundance,default,per_sample,complex gain,12,100,0.12
+uneven_abundance,default,per_sample,complex loss,39,100,0.39
+uneven_abundance,default,per_sample,tandem dup,64,100,0.64
+uneven_abundance,mosaic,genotype,insertion,0,97,0.0
+uneven_abundance,mosaic,genotype,deletion,0,103,0.0
+uneven_abundance,mosaic,genotype,complex gain,0,100,0.0
+uneven_abundance,mosaic,genotype,complex loss,1,100,0.01
+uneven_abundance,mosaic,genotype,tandem dup,0,100,0.0
+uneven_abundance,mosaic,support,insertion,0,97,0.0
+uneven_abundance,mosaic,support,deletion,0,103,0.0
+uneven_abundance,mosaic,support,complex gain,0,100,0.0
+uneven_abundance,mosaic,support,complex loss,1,100,0.01
+uneven_abundance,mosaic,support,tandem dup,0,100,0.0
+uneven_abundance,mosaic,per_sample,insertion,1,97,0.010309278350515464
+uneven_abundance,mosaic,per_sample,deletion,0,103,0.0
+uneven_abundance,mosaic,per_sample,complex gain,9,100,0.09
+uneven_abundance,mosaic,per_sample,complex loss,4,100,0.04
+uneven_abundance,mosaic,per_sample,tandem dup,1,100,0.01
+uneven_abundance,mosaic_germline,genotype,insertion,70,97,0.7216494845360825
+uneven_abundance,mosaic_germline,genotype,deletion,81,103,0.7864077669902912
+uneven_abundance,mosaic_germline,genotype,complex gain,13,100,0.13
+uneven_abundance,mosaic_germline,genotype,complex loss,39,100,0.39
+uneven_abundance,mosaic_germline,genotype,tandem dup,64,100,0.64
+uneven_abundance,mosaic_germline,support,insertion,70,97,0.7216494845360825
+uneven_abundance,mosaic_germline,support,deletion,81,103,0.7864077669902912
+uneven_abundance,mosaic_germline,support,complex gain,13,100,0.13
+uneven_abundance,mosaic_germline,support,complex loss,39,100,0.39
+uneven_abundance,mosaic_germline,support,tandem dup,64,100,0.64
+uneven_abundance,mosaic_germline,per_sample,insertion,71,97,0.7319587628865979
+uneven_abundance,mosaic_germline,per_sample,deletion,81,103,0.7864077669902912
+uneven_abundance,mosaic_germline,per_sample,complex gain,19,100,0.19
+uneven_abundance,mosaic_germline,per_sample,complex loss,41,100,0.41
+uneven_abundance,mosaic_germline,per_sample,tandem dup,65,100,0.65

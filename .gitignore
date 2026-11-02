@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/*
+!data/download.sh
+!data/download_cheese_reads.sh
+results/
+zenodo_upload/
+heterosv_out/
+example/*.fasta

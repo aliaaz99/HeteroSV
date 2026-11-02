@@ -1,0 +1,15 @@
+name: heterosv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pip
+  - flye=2.9.3
+  - minigraph=0.20
+  - minimap2=2.24
+  - seqkit=2.14.0
+  - sra-tools=3.1.1
+  - htslib
+  - pip:
+      - -r requirements.txt

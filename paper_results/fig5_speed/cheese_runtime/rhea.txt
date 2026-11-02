@@ -1,0 +1,7 @@
+dataset=tmp1bkmcmur graph=GFA nodes=3927 edges=3671 samples=5 sv_calls=1510 peak_rss_gb=6.4
+init_edge_dicts	7.80
+edge_lfc_matrix	71.39
+simple_cycles	0.12
+rules	0.65
+detect_structural_variants	72.16
+write_edge_tsvs	46.94

@@ -1,0 +1,14 @@
+# The callers that compare two samples (experiments/prepare/baselines.sh). MUM&Co 3.8 is
+# downloaded by that script.
+name: heterosv-baselines
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - minimap2=2.24
+  - samtools
+  - mummer4=4.0.1
+  - metabat2=2.15
+  - skani=0.4.0
+  - sniffles=2.8.1

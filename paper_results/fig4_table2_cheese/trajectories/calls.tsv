@@ -1,0 +1,354 @@
+step	caller	node_id	sv_type
+2-3	HeteroSV	153	complex loss
+2-3	HeteroSV	154	complex gain
+2-3	HeteroSV	157	complex loss
+2-3	HeteroSV	158	complex gain
+2-3	HeteroSV	451	deletion
+2-3	HeteroSV	647	insertion
+2-3	HeteroSV	793	complex loss
+2-3	HeteroSV	794	complex gain
+2-3	HeteroSV	796	insertion
+2-3	HeteroSV	806	complex gain
+2-3	HeteroSV	807	complex loss
+2-3	HeteroSV	821	deletion
+2-3	HeteroSV	822	complex gain
+2-3	HeteroSV	940	complex loss
+2-3	HeteroSV	941	deletion
+2-3	HeteroSV	965	insertion
+2-3	HeteroSV	976	complex loss
+2-3	HeteroSV	1069	complex loss
+2-3	HeteroSV	1070	complex gain
+2-3	HeteroSV	1168	complex loss
+2-3	HeteroSV	1173	complex gain
+2-3	HeteroSV	1174	complex loss
+2-3	HeteroSV	1175	complex loss
+2-3	HeteroSV	1182	complex gain
+2-3	HeteroSV	1183	complex loss
+2-3	HeteroSV	1196	deletion
+2-3	HeteroSV	1198	complex gain
+2-3	HeteroSV	1204	complex loss
+2-3	HeteroSV	1209	complex loss
+2-3	HeteroSV	1210	complex gain
+2-3	HeteroSV	1211	complex loss
+2-3	HeteroSV	1230	deletion
+2-3	HeteroSV	2951	complex loss
+2-3	HeteroSV	2991	complex gain
+2-3	HeteroSV	3084	complex gain
+2-3	HeteroSV	3093	complex gain
+2-3	HeteroSV	3126	deletion
+2-3	HeteroSV	3308	complex gain
+2-3	HeteroSV	3331	complex gain
+2-3	HeteroSV	3332	complex loss
+2-3	HeteroSV	3427	complex gain
+2-3	HeteroSV	3437	insertion
+2-3	HeteroSV	3456	complex gain
+2-3	Rhea	276	deletion
+2-3	Rhea	448	insertion
+2-3	Rhea	450	insertion
+2-3	Rhea	451	deletion
+2-3	Rhea	647	insertion
+2-3	Rhea	796	insertion
+2-3	Rhea	821	deletion
+2-3	Rhea	941	deletion
+2-3	Rhea	965	insertion
+2-3	Rhea	1196	deletion
+2-3	Rhea	1230	deletion
+2-3	Rhea	3013	insertion
+2-3	Rhea	3126	deletion
+2-3	Rhea	3437	insertion
+3-4	HeteroSV	267	complex loss
+3-4	HeteroSV	270	deletion
+3-4	HeteroSV	276	insertion
+3-4	HeteroSV	296	deletion
+3-4	HeteroSV	597	deletion
+3-4	HeteroSV	610	complex gain
+3-4	HeteroSV	611	complex loss
+3-4	HeteroSV	646	insertion
+3-4	HeteroSV	647	deletion
+3-4	HeteroSV	662	insertion
+3-4	HeteroSV	731	complex loss
+3-4	HeteroSV	734	complex gain
+3-4	HeteroSV	746	insertion
+3-4	HeteroSV	747	complex loss
+3-4	HeteroSV	762	insertion
+3-4	HeteroSV	793	complex gain
+3-4	HeteroSV	794	complex loss
+3-4	HeteroSV	796	deletion
+3-4	HeteroSV	806	complex loss
+3-4	HeteroSV	807	complex gain
+3-4	HeteroSV	810	complex gain
+3-4	HeteroSV	814	complex loss
+3-4	HeteroSV	815	complex gain
+3-4	HeteroSV	816	complex loss
+3-4	HeteroSV	817	complex loss
+3-4	HeteroSV	818	complex gain
+3-4	HeteroSV	821	insertion
+3-4	HeteroSV	822	complex loss
+3-4	HeteroSV	974	complex loss
+3-4	HeteroSV	1158	complex loss
+3-4	HeteroSV	1159	complex gain
+3-4	HeteroSV	1198	complex gain
+3-4	HeteroSV	1204	complex loss
+3-4	HeteroSV	1210	complex gain
+3-4	HeteroSV	1211	complex loss
+3-4	HeteroSV	2951	complex loss
+3-4	HeteroSV	3184	complex gain
+3-4	HeteroSV	3185	complex loss
+3-4	HeteroSV	3187	complex gain
+3-4	HeteroSV	3188	complex loss
+3-4	HeteroSV	3198	complex gain
+3-4	HeteroSV	3214	complex gain
+3-4	HeteroSV	3236	complex loss
+3-4	HeteroSV	3237	complex gain
+3-4	HeteroSV	3241	complex gain
+3-4	HeteroSV	3243	complex gain
+3-4	HeteroSV	3248	complex gain
+3-4	HeteroSV	3296	complex gain
+3-4	HeteroSV	3331	complex gain
+3-4	HeteroSV	3332	complex loss
+3-4	HeteroSV	3429	deletion
+3-4	HeteroSV	3430	complex gain
+3-4	HeteroSV	3431	complex loss
+3-4	HeteroSV	3441	complex gain
+3-4	HeteroSV	3442	complex loss
+3-4	HeteroSV	3456	complex gain
+3-4	Rhea	267	complex loss
+3-4	Rhea	276	insertion
+3-4	Rhea	597	deletion
+3-4	Rhea	610	complex gain
+3-4	Rhea	611	complex loss
+3-4	Rhea	647	deletion
+3-4	Rhea	662	insertion
+3-4	Rhea	731	complex loss
+3-4	Rhea	734	complex gain
+3-4	Rhea	746	insertion
+3-4	Rhea	747	complex loss
+3-4	Rhea	762	insertion
+3-4	Rhea	786	complex loss
+3-4	Rhea	793	complex gain
+3-4	Rhea	794	complex loss
+3-4	Rhea	796	deletion
+3-4	Rhea	806	complex loss
+3-4	Rhea	807	complex gain
+3-4	Rhea	809	complex loss
+3-4	Rhea	810	complex gain
+3-4	Rhea	814	complex loss
+3-4	Rhea	815	complex gain
+3-4	Rhea	816	complex loss
+3-4	Rhea	817	complex loss
+3-4	Rhea	818	complex gain
+3-4	Rhea	821	insertion
+3-4	Rhea	822	complex loss
+3-4	Rhea	974	complex loss
+3-4	Rhea	1158	complex loss
+3-4	Rhea	1159	complex gain
+3-4	Rhea	1198	complex gain
+3-4	Rhea	1204	complex loss
+3-4	Rhea	1210	complex gain
+3-4	Rhea	1211	complex loss
+3-4	Rhea	2951	complex loss
+3-4	Rhea	3126	insertion
+3-4	Rhea	3184	complex gain
+3-4	Rhea	3185	complex loss
+3-4	Rhea	3187	complex gain
+3-4	Rhea	3188	complex loss
+3-4	Rhea	3198	complex gain
+3-4	Rhea	3214	complex gain
+3-4	Rhea	3236	complex loss
+3-4	Rhea	3237	complex gain
+3-4	Rhea	3241	complex gain
+3-4	Rhea	3243	complex gain
+3-4	Rhea	3248	complex gain
+3-4	Rhea	3296	complex gain
+3-4	Rhea	3331	complex gain
+3-4	Rhea	3332	complex loss
+3-4	Rhea	3429	deletion
+3-4	Rhea	3430	complex gain
+3-4	Rhea	3431	complex loss
+3-4	Rhea	3441	complex gain
+3-4	Rhea	3442	complex loss
+3-4	Rhea	3456	complex gain
+3-4	Rhea	3601	complex gain
+3-4	Rhea	3602	complex loss
+4-9	HeteroSV	296	deletion
+4-9	HeteroSV	310	complex gain
+4-9	HeteroSV	339	insertion
+4-9	HeteroSV	442	complex gain
+4-9	HeteroSV	443	complex loss
+4-9	HeteroSV	647	deletion
+4-9	HeteroSV	731	complex loss
+4-9	HeteroSV	734	complex gain
+4-9	HeteroSV	736	deletion
+4-9	HeteroSV	742	complex gain
+4-9	HeteroSV	746	deletion
+4-9	HeteroSV	771	complex gain
+4-9	HeteroSV	795	complex loss
+4-9	HeteroSV	1363	complex loss
+4-9	HeteroSV	3184	complex gain
+4-9	HeteroSV	3185	complex loss
+4-9	HeteroSV	3194	complex gain
+4-9	HeteroSV	3222	complex gain
+4-9	HeteroSV	3513	complex gain
+4-9	Rhea	31	complex loss
+4-9	Rhea	104	complex gain
+4-9	Rhea	296	deletion
+4-9	Rhea	310	complex gain
+4-9	Rhea	339	insertion
+4-9	Rhea	647	deletion
+4-9	Rhea	727	complex gain
+4-9	Rhea	731	complex loss
+4-9	Rhea	734	complex gain
+4-9	Rhea	736	deletion
+4-9	Rhea	742	complex gain
+4-9	Rhea	746	deletion
+4-9	Rhea	771	complex gain
+4-9	Rhea	795	complex loss
+4-9	Rhea	1363	complex loss
+4-9	Rhea	2816	complex gain
+4-9	Rhea	2850	complex loss
+4-9	Rhea	2931	complex loss
+4-9	Rhea	2943	complex loss
+4-9	Rhea	3028	complex loss
+4-9	Rhea	3029	complex gain
+4-9	Rhea	3053	complex loss
+4-9	Rhea	3184	complex gain
+4-9	Rhea	3185	complex loss
+4-9	Rhea	3187	complex gain
+4-9	Rhea	3188	complex loss
+4-9	Rhea	3193	complex loss
+4-9	Rhea	3194	complex gain
+4-9	Rhea	3202	complex loss
+4-9	Rhea	3216	complex loss
+4-9	Rhea	3217	complex gain
+4-9	Rhea	3222	complex gain
+4-9	Rhea	3513	complex gain
+9-13	HeteroSV	146	complex loss
+9-13	HeteroSV	347	complex loss
+9-13	HeteroSV	405	complex loss
+9-13	HeteroSV	841	complex gain
+9-13	HeteroSV	843	complex loss
+9-13	HeteroSV	862	complex loss
+9-13	HeteroSV	921	complex gain
+9-13	HeteroSV	960	complex loss
+9-13	HeteroSV	1172	complex loss
+9-13	HeteroSV	1336	insertion
+9-13	HeteroSV	1356	complex gain
+9-13	HeteroSV	1369	complex loss
+9-13	HeteroSV	1383	complex loss
+9-13	HeteroSV	1453	deletion
+9-13	HeteroSV	1549	complex loss
+9-13	HeteroSV	1599	complex gain
+9-13	HeteroSV	1600	complex loss
+9-13	HeteroSV	1607	complex gain
+9-13	HeteroSV	1694	complex gain
+9-13	HeteroSV	1695	complex loss
+9-13	HeteroSV	1757	complex loss
+9-13	HeteroSV	1766	complex loss
+9-13	HeteroSV	1798	complex gain
+9-13	HeteroSV	1799	complex gain
+9-13	HeteroSV	1857	complex gain
+9-13	HeteroSV	1999	complex loss
+9-13	HeteroSV	2000	complex gain
+9-13	HeteroSV	2004	complex gain
+9-13	HeteroSV	2233	complex loss
+9-13	HeteroSV	2241	complex gain
+9-13	HeteroSV	2259	complex gain
+9-13	HeteroSV	2671	complex gain
+9-13	HeteroSV	2672	complex loss
+9-13	HeteroSV	2676	complex loss
+9-13	HeteroSV	2744	complex gain
+9-13	HeteroSV	2884	complex gain
+9-13	HeteroSV	2885	complex loss
+9-13	HeteroSV	2986	complex gain
+9-13	HeteroSV	3003	complex loss
+9-13	HeteroSV	3171	complex loss
+9-13	HeteroSV	3268	complex gain
+9-13	HeteroSV	3295	complex loss
+9-13	HeteroSV	3364	complex loss
+9-13	HeteroSV	3365	complex gain
+9-13	HeteroSV	3470	complex loss
+9-13	HeteroSV	3476	complex loss
+9-13	HeteroSV	3477	complex gain
+9-13	HeteroSV	3499	complex loss
+9-13	HeteroSV	3517	complex loss
+9-13	HeteroSV	3623	complex loss
+9-13	HeteroSV	3674	complex gain
+9-13	HeteroSV	3676	complex loss
+9-13	HeteroSV	3681	complex loss
+9-13	HeteroSV	3684	complex gain
+9-13	HeteroSV	3789	complex loss
+9-13	HeteroSV	3793	complex gain
+9-13	HeteroSV	3794	complex loss
+9-13	HeteroSV	3817	complex loss
+9-13	HeteroSV	3854	complex gain
+9-13	HeteroSV	3858	complex loss
+9-13	HeteroSV	3880	complex gain
+9-13	Rhea	118	complex loss
+9-13	Rhea	119	complex gain
+9-13	Rhea	267	complex loss
+9-13	Rhea	347	complex loss
+9-13	Rhea	405	complex loss
+9-13	Rhea	528	complex gain
+9-13	Rhea	555	complex loss
+9-13	Rhea	556	complex gain
+9-13	Rhea	627	complex loss
+9-13	Rhea	628	complex gain
+9-13	Rhea	746	insertion
+9-13	Rhea	771	complex loss
+9-13	Rhea	817	complex loss
+9-13	Rhea	818	complex gain
+9-13	Rhea	822	complex loss
+9-13	Rhea	841	complex gain
+9-13	Rhea	843	complex loss
+9-13	Rhea	908	complex gain
+9-13	Rhea	909	complex loss
+9-13	Rhea	921	complex gain
+9-13	Rhea	960	complex loss
+9-13	Rhea	961	complex gain
+9-13	Rhea	962	complex loss
+9-13	Rhea	1125	complex loss
+9-13	Rhea	1126	complex gain
+9-13	Rhea	1172	complex loss
+9-13	Rhea	1259	complex gain
+9-13	Rhea	1320	complex gain
+9-13	Rhea	1336	insertion
+9-13	Rhea	1369	complex loss
+9-13	Rhea	1453	deletion
+9-13	Rhea	1549	complex loss
+9-13	Rhea	1588	complex gain
+9-13	Rhea	1599	complex gain
+9-13	Rhea	1600	complex loss
+9-13	Rhea	1637	complex gain
+9-13	Rhea	1694	complex gain
+9-13	Rhea	1695	complex loss
+9-13	Rhea	1739	complex gain
+9-13	Rhea	1757	complex loss
+9-13	Rhea	1758	complex gain
+9-13	Rhea	1980	complex loss
+9-13	Rhea	1981	complex gain
+9-13	Rhea	1999	complex loss
+9-13	Rhea	2000	complex gain
+9-13	Rhea	2241	complex gain
+9-13	Rhea	2952	complex gain
+9-13	Rhea	2971	complex gain
+9-13	Rhea	2972	complex loss
+9-13	Rhea	2986	complex gain
+9-13	Rhea	3060	complex loss
+9-13	Rhea	3171	complex loss
+9-13	Rhea	3172	complex gain
+9-13	Rhea	3193	complex gain
+9-13	Rhea	3194	complex loss
+9-13	Rhea	3202	complex gain
+9-13	Rhea	3243	complex gain
+9-13	Rhea	3248	complex gain
+9-13	Rhea	3295	complex loss
+9-13	Rhea	3320	complex gain
+9-13	Rhea	3432	complex gain
+9-13	Rhea	3470	complex loss
+9-13	Rhea	3499	complex loss
+9-13	Rhea	3516	complex gain
+9-13	Rhea	3598	complex gain
+9-13	Rhea	3618	complex loss
+9-13	Rhea	3634	complex loss
+9-13	Rhea	3681	complex loss
+9-13	Rhea	3858	complex loss

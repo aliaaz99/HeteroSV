@@ -1,0 +1,210 @@
+node_id	on_own_contig	contig	contig_len	bin	species	graph_bin	graph_hops	graph_species	mge
+31	True	contig_31	9406			bin.50	1	s__Vreelandella citrativorans	none
+104	True	contig_104	7602	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+118	True	contig_118	638			bin.152	1	s__Alcaligenes pakistanensis	none
+119	True	contig_119	603			bin.152	1	s__Alcaligenes pakistanensis	none
+146	True	contig_146	341821	bin.143	s__Serratia proteamaculans	bin.143	0	s__Serratia proteamaculans	none
+153	True	contig_153	3802	bin.130	s__Psychrobacter sp014861395	bin.130	0	s__Psychrobacter sp014861395	plasmid
+154	True	contig_154	13332			bin.130	1	s__Psychrobacter sp014861395	plasmid
+157	True	contig_157	5632			bin.130	1	s__Psychrobacter sp014861395	plasmid
+158	True	contig_158	6407			bin.130	1	s__Psychrobacter sp014861395	plasmid
+267	True	contig_267	171219	bin.95	s__Vreelandella citrativorans	bin.95	0	s__Vreelandella citrativorans	none
+270	True	contig_270	2609			bin.95	1	s__Vreelandella citrativorans	none
+276	True	contig_276	1420			bin.33	1	s__Vreelandella citrativorans	none
+296	True	contig_296	1750			bin.59	2	s__Vreelandella citrativorans	none
+310	True	contig_310	4283	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+339	True	contig_339	1918			bin.189	5	s__Mesonia profundi	none
+347	False	contig_684	298493	bin.9	s__Alcaligenes pakistanensis	bin.9	0	s__Alcaligenes pakistanensis	none
+405	True	contig_405	13833	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+442	True	contig_442	1496				0		virus
+443	True	contig_443	1218				0		virus
+448	True	contig_448	1331			bin.130	1	s__Psychrobacter sp014861395	none
+450	True	contig_450	1309			bin.57	1	s__Psychrobacter sp014861395	none
+451	False	contig_3017	144991	bin.57	s__Psychrobacter sp014861395	bin.57	0	s__Psychrobacter sp014861395	none
+528	True	contig_528	14233			bin.75	1	s__Alcaligenes pakistanensis	none
+555	True	contig_555	1161			bin.52	1	s__Alcaligenes pakistanensis	none
+556	True	contig_556	1161			bin.52	1	s__Alcaligenes pakistanensis	none
+597	False	contig_2859	72798	bin.130	s__Psychrobacter sp014861395	bin.130	0	s__Psychrobacter sp014861395	none
+610	True	contig_610	4809			bin.130	1	s__Psychrobacter sp014861395	plasmid
+611	True	contig_611	4829			bin.130	1	s__Psychrobacter sp014861395	plasmid
+627	True	contig_627	11361			bin.189	1	s__Mesonia profundi	none
+628	True	contig_628	12579			bin.189	1	s__Mesonia profundi	none
+646	True	contig_3122	22014			bin.59	2	s__Vreelandella citrativorans	none
+647	True	contig_647	1165			bin.59	1	s__Vreelandella citrativorans	none
+662	True	contig_662	1926			bin.150	3	s__Vreelandella casei	none
+727	True	contig_727	148902			bin.31	1	s__Vreelandella citrativorans	none
+731	True	contig_731	5902			bin.189	2	s__Mesonia profundi	none
+734	True	contig_734	15915	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	plasmid
+736	True	contig_736	1242			bin.59	3	s__Vreelandella citrativorans	none
+742	True	contig_742	27649	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+746	True	contig_746	1245			bin.189	4	s__Mesonia profundi	none
+747	True	contig_747	5293			bin.189	5	s__Mesonia profundi	none
+762	False	contig_3200	73457			bin.189	3	s__Mesonia profundi	none
+771	True	contig_771	12394	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+786	True	contig_786	9882				0		none
+793	True	contig_793	2073			bin.189	2	s__Mesonia profundi	none
+794	True	contig_794	2998			bin.189	2	s__Mesonia profundi	none
+795	True	contig_795	4841			bin.189	2	s__Mesonia profundi	none
+796	False	contig_3223	34439			bin.152	2	s__Alcaligenes pakistanensis	none
+806	True	contig_806	1018			bin.37	1	s__Vreelandella citrativorans	none
+807	True	contig_807	1018			bin.37	1	s__Vreelandella citrativorans	none
+809	True	contig_809	608			bin.189	3	s__Mesonia profundi	none
+810	True	contig_810	608			bin.189	3	s__Mesonia profundi	none
+814	True	contig_814	1418			bin.189	2	s__Mesonia profundi	none
+815	True	contig_815	1416			bin.189	2	s__Mesonia profundi	none
+816	True	contig_816	7188			bin.98	3	s__Vreelandella citrativorans	none
+817	True	contig_817	2533			bin.98	1	s__Vreelandella citrativorans	none
+818	True	contig_818	166206	bin.73	s__Vreelandella citrativorans	bin.73	0	s__Vreelandella citrativorans	none
+821	True	contig_821	1937			bin.28	3	s__Vreelandella citrativorans	none
+822	True	contig_822	22717			bin.28	1	s__Vreelandella citrativorans	none
+841	False	contig_280	97011	bin.75	s__Alcaligenes pakistanensis	bin.75	0	s__Alcaligenes pakistanensis	none
+843	False	contig_280	97011	bin.75	s__Alcaligenes pakistanensis	bin.75	0	s__Alcaligenes pakistanensis	none
+862	True	contig_862	23405	bin.151	s__Lactococcus lactis	bin.151	0	s__Lactococcus lactis	none
+908	True	contig_908	2250			bin.75	1	s__Alcaligenes pakistanensis	none
+909	True	contig_909	2169	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+921	True	contig_921	4997			bin.152	2	s__Alcaligenes pakistanensis	none
+940	True	contig_940	14724			bin.130	1	s__Psychrobacter sp014861395	none
+941	True	contig_941	808			bin.130	1	s__Psychrobacter sp014861395	none
+960	True	contig_960	1606	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+961	True	contig_961	1200			bin.52	2	s__Alcaligenes pakistanensis	none
+962	False	contig_3320	2327			bin.152	1	s__Alcaligenes pakistanensis	none
+965	False	contig_3008	683795	bin.67	s__Pseudoalteromonas prydzensis	bin.67	0	s__Pseudoalteromonas prydzensis	none
+974	True	contig_974	82575	bin.109	s__Psychrobacter sp014861395	bin.109	0	s__Psychrobacter sp014861395	none
+976	True	contig_976	18419			bin.109	1	s__Psychrobacter sp014861395	none
+1069	True	contig_1069	3374	bin.130	s__Psychrobacter sp014861395	bin.130	0	s__Psychrobacter sp014861395	plasmid
+1070	True	contig_1070	1606			bin.130	1	s__Psychrobacter sp014861395	none
+1125	False	contig_3415	12587	bin.141	s__Alcaligenes pakistanensis	bin.141	0	s__Alcaligenes pakistanensis	none
+1126	True	contig_1126	1747			bin.141	1	s__Alcaligenes pakistanensis	none
+1158	True	contig_1158	6372			bin.57	1	s__Psychrobacter sp014861395	none
+1159	True	contig_1159	7461			bin.57	1	s__Psychrobacter sp014861395	none
+1168	False	contig_3055	74045			bin.130	1	s__Psychrobacter sp014861395	plasmid
+1172	True	contig_1172	77308			bin.21	3	s__Psychrobacter sp014861395	none
+1173	True	contig_1173	8912			bin.21	1	s__Psychrobacter sp014861395	none
+1174	True	contig_1174	8851			bin.21	1	s__Psychrobacter sp014861395	none
+1175	True	contig_1175	88455			bin.21	1	s__Psychrobacter sp014861395	none
+1182	True	contig_1182	12708	bin.130	s__Psychrobacter sp014861395	bin.130	0	s__Psychrobacter sp014861395	none
+1183	True	contig_1183	20298	bin.130	s__Psychrobacter sp014861395	bin.130	0	s__Psychrobacter sp014861395	none
+1196	True	contig_1196	1664			bin.130	1	s__Psychrobacter sp014861395	none
+1198	True	contig_1198	16526			bin.11	1	s__Psychrobacter sp014861395	none
+1204	True	contig_1204	11716			bin.109	1	s__Psychrobacter sp014861395	none
+1209	True	contig_1209	92218	bin.109	s__Psychrobacter sp014861395	bin.109	0	s__Psychrobacter sp014861395	none
+1210	True	contig_1210	16699			bin.109	1	s__Psychrobacter sp014861395	none
+1211	True	contig_1211	15250			bin.109	1	s__Psychrobacter sp014861395	none
+1230	True	contig_1230	1266			bin.99	1	s__Vibrio litoralis	none
+1259	True	contig_1259	12580			bin.189	2	s__Mesonia profundi	none
+1320	False	contig_460	1156322	bin.162	s__Alcaligenes pakistanensis	bin.162	0	s__Alcaligenes pakistanensis	none
+1336	True	contig_1336	13619			bin.111	4	s__Serratia proteamaculans	virus
+1356	True	contig_1356	365677	bin.144	s__Serratia proteamaculans	bin.144	0	s__Serratia proteamaculans	none
+1363	True	contig_1363	3256			bin.95	1	s__Vreelandella citrativorans	none
+1369	True	contig_1369	4243	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	plasmid
+1383	False	contig_1505	14627	bin.64	s__Alcaligenes pakistanensis	bin.64	0	s__Alcaligenes pakistanensis	none
+1453	True	contig_1453	17271	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+1549	True	contig_1549	3444	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+1588	True	contig_1588	45261			bin.131	1	s__Alcaligenes pakistanensis	none
+1599	True	contig_1599	874			bin.93	1	s__Alcaligenes pakistanensis	none
+1600	True	contig_1600	3797	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+1607	True	contig_1607	33945			bin.143	1	s__Serratia proteamaculans	none
+1637	True	contig_1637	3795			bin.106	2	s__Alcaligenes pakistanensis	none
+1694	True	contig_1694	607			bin.52	3	s__Alcaligenes pakistanensis	none
+1695	True	contig_1695	599			bin.52	3	s__Alcaligenes pakistanensis	none
+1739	True	contig_1739	7413			bin.86	2	s__Mesonia profundi	none
+1757	True	contig_1757	2435	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+1758	True	contig_1758	2434			bin.152	1	s__Alcaligenes pakistanensis	none
+1766	True	contig_1766	88936			bin.42	1	s__Serratia proteamaculans	none
+1798	True	contig_1798	85062	bin.42	s__Serratia proteamaculans	bin.42	0	s__Serratia proteamaculans	none
+1799	True	contig_1799	28691			bin.111	1	s__Serratia proteamaculans	none
+1857	True	contig_1857	101564			bin.143	1	s__Serratia proteamaculans	none
+1980	True	contig_1980	8209	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+1981	True	contig_1981	9524			bin.189	1	s__Mesonia profundi	none
+1999	True	contig_1999	17206			bin.144	1	s__Serratia proteamaculans	plasmid
+2000	True	contig_2000	17204			bin.144	1	s__Serratia proteamaculans	plasmid
+2004	True	contig_2004	120001	bin.42	s__Serratia proteamaculans	bin.42	0	s__Serratia proteamaculans	plasmid
+2233	True	contig_2233	114055			bin.8	1	s__Serratia proteamaculans	provirus
+2241	True	contig_2241	26799			bin.144	3	s__Serratia proteamaculans	none
+2259	True	contig_2259	23127			bin.143	1	s__Serratia proteamaculans	plasmid
+2671	True	contig_2671	924			bin.54	1	s__Serratia proteamaculans	none
+2672	True	contig_2672	926			bin.54	1	s__Serratia proteamaculans	none
+2676	True	contig_2676	343402	bin.143	s__Serratia proteamaculans	bin.143	0	s__Serratia proteamaculans	none
+2744	True	contig_2744	16481			bin.111	2	s__Serratia proteamaculans	none
+2816	True	contig_2816	9180	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+2850	True	contig_2850	7602			bin.31	1	s__Vreelandella citrativorans	none
+2884	True	contig_2884	176828	bin.144	s__Serratia proteamaculans	bin.144	0	s__Serratia proteamaculans	none
+2885	True	contig_2885	254384	bin.32	s__Serratia proteamaculans	bin.32	0	s__Serratia proteamaculans	none
+2931	True	contig_2931	4407			bin.98	1	s__Vreelandella citrativorans	none
+2943	True	contig_2943	155330	bin.31	s__Vreelandella citrativorans	bin.31	0	s__Vreelandella citrativorans	none
+2951	True	contig_2951	15496			bin.11	1	s__Psychrobacter sp014861395	none
+2952	True	contig_2952	2310			bin.9	1	s__Alcaligenes pakistanensis	none
+2971	True	contig_2971	3938			bin.118	2	s__Alcaligenes pakistanensis	none
+2972	True	contig_2972	3938	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+2986	True	contig_2986	17212			bin.142	2	s__Vreelandella sp031010195	none
+2991	True	contig_2991	89412			bin.109	1	s__Psychrobacter sp014861395	none
+3003	True	contig_3003	117929	bin.143	s__Serratia proteamaculans	bin.143	0	s__Serratia proteamaculans	plasmid
+3013	True	contig_1157	97572	bin.57	s__Psychrobacter sp014861395	bin.57	0	s__Psychrobacter sp014861395	plasmid
+3028	True	contig_3028	47744			bin.189	2	s__Mesonia profundi	none
+3029	True	contig_3029	47546	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3053	True	contig_3053	27660			bin.189	2	s__Mesonia profundi	none
+3060	True	contig_3060	14207	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+3084	True	contig_3084	91568	bin.21	s__Psychrobacter sp014861395	bin.21	0	s__Psychrobacter sp014861395	none
+3093	True	contig_3093	40039	bin.33	s__Vreelandella citrativorans	bin.33	0	s__Vreelandella citrativorans	none
+3126	True	contig_3126	1498			bin.59	1	s__Vreelandella citrativorans	none
+3171	True	contig_3171	16066	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+3172	True	contig_3172	16118			bin.52	1	s__Alcaligenes pakistanensis	none
+3184	True	contig_3184	5908	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3185	True	contig_3185	15885	bin.33	s__Vreelandella citrativorans	bin.33	0	s__Vreelandella citrativorans	plasmid
+3187	True	contig_3187	19422	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3188	True	contig_3188	42092			bin.59	2	s__Vreelandella citrativorans	none
+3193	True	contig_3193	7744			bin.189	2	s__Mesonia profundi	none
+3194	True	contig_3194	8306	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3198	True	contig_3198	5126			bin.189	5	s__Mesonia profundi	none
+3202	True	contig_3202	12385			bin.189	2	s__Mesonia profundi	none
+3214	True	contig_3214	9882				0		none
+3216	True	contig_3216	19228				0		none
+3217	True	contig_3217	19267				0		none
+3222	True	contig_3222	4341	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3236	True	contig_3236	13955			bin.18	1	s__Vreelandella citrativorans	none
+3237	True	contig_3237	13487			bin.18	1	s__Vreelandella citrativorans	none
+3241	True	contig_3241	7306			bin.98	3	s__Vreelandella citrativorans	none
+3243	True	contig_3243	3424			bin.98	1	s__Vreelandella citrativorans	plasmid
+3248	True	contig_3248	13820			bin.28	1	s__Vreelandella citrativorans	none
+3268	True	contig_3268	23405			bin.151	2	s__Lactococcus lactis	none
+3295	True	contig_3295	19553	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	plasmid
+3296	True	contig_3296	64276	bin.89	s__Psychrobacter sp014861395	bin.89	0	s__Psychrobacter sp014861395	none
+3308	True	contig_3308	12280			bin.130	1	s__Psychrobacter sp014861395	none
+3320	True	contig_3320	2327			bin.152	2	s__Alcaligenes pakistanensis	none
+3331	True	contig_3331	10510			bin.109	1	s__Psychrobacter sp014861395	none
+3332	True	contig_3332	10243			bin.109	1	s__Psychrobacter sp014861395	none
+3364	True	contig_3364	21659			bin.32	1	s__Serratia proteamaculans	none
+3365	True	contig_3365	21660			bin.32	1	s__Serratia proteamaculans	none
+3427	True	contig_3427	10015			bin.130	1	s__Psychrobacter sp014861395	plasmid
+3429	True	contig_3429	8106			bin.130	1	s__Psychrobacter sp014861395	plasmid
+3430	True	contig_3430	11208			bin.89	1	s__Psychrobacter sp014861395	none
+3431	True	contig_3431	13768			bin.89	1	s__Psychrobacter sp014861395	none
+3432	True	contig_3432	88234			bin.21	3	s__Psychrobacter sp014861395	none
+3437	True	contig_3437	24934			bin.130	1	s__Psychrobacter sp014861395	plasmid
+3441	True	contig_3441	15891			bin.130	1	s__Psychrobacter sp014861395	none
+3442	True	contig_3442	18919			bin.130	1	s__Psychrobacter sp014861395	none
+3456	True	contig_3456	12557			bin.109	1	s__Psychrobacter sp014861395	none
+3470	True	contig_3470	12623	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3476	True	contig_3476	15286			bin.144	3	s__Serratia proteamaculans	plasmid
+3477	True	contig_3477	15259			bin.144	3	s__Serratia proteamaculans	plasmid
+3499	True	contig_3499	4784	bin.152	s__Alcaligenes pakistanensis	bin.152	0	s__Alcaligenes pakistanensis	none
+3513	True	contig_3513	3003			bin.95	1	s__Vreelandella citrativorans	none
+3516	True	contig_3516	4243			bin.75	1	s__Alcaligenes pakistanensis	plasmid
+3517	True	contig_3517	70924			bin.144	1	s__Serratia proteamaculans	plasmid
+3598	True	contig_3598	3463			bin.189	1	s__Mesonia profundi	none
+3601	True	contig_3601	25143	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3602	True	contig_3602	24824			bin.31	1	s__Vreelandella citrativorans	none
+3618	True	contig_3618	45190	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3623	True	contig_3623	33748			bin.143	1	s__Serratia proteamaculans	none
+3634	True	contig_3634	3331	bin.189	s__Mesonia profundi	bin.189	0	s__Mesonia profundi	none
+3674	True	contig_3674	45135			bin.144	1	s__Serratia proteamaculans	none
+3676	True	contig_3676	44536			bin.144	1	s__Serratia proteamaculans	none
+3681	True	contig_3681	9965			bin.86	2	s__Mesonia profundi	none
+3684	True	contig_3684	64037	bin.144	s__Serratia proteamaculans	bin.144	0	s__Serratia proteamaculans	plasmid
+3789	True	contig_3789	125411	bin.151	s__Lactococcus lactis	bin.151	0	s__Lactococcus lactis	none
+3793	True	contig_3793	147748	bin.42	s__Serratia proteamaculans	bin.42	0	s__Serratia proteamaculans	plasmid
+3794	True	contig_3794	139933			bin.42	1	s__Serratia proteamaculans	plasmid
+3817	True	contig_3817	184515	bin.54	s__Serratia proteamaculans	bin.54	0	s__Serratia proteamaculans	none
+3854	True	contig_3854	51898			bin.8	1	s__Serratia proteamaculans	none
+3858	True	contig_3858	27627			bin.144	3	s__Serratia proteamaculans	none
+3880	True	contig_3880	306806	bin.144	s__Serratia proteamaculans	bin.144	0	s__Serratia proteamaculans	none
