@@ -8,7 +8,12 @@ ZENODO_RECORD=23818810
 DATA=$(cd "$(dirname "$0")" && pwd)
 mkdir -p "$DATA/zymo"
 
-osf() { [ -s "$DATA/zymo/$1" ] || curl -fL --retry 5 -o "$DATA/zymo/$1" "https://osf.io/download/$2/"; }
+fetch() {  # fetch URL FILE: an interrupted download never takes the name of the finished file
+  [ -s "$2" ] && return
+  curl -fL --retry 5 -o "$2.part" "$1"
+  mv "$2.part" "$2"
+}
+osf() { fetch "https://osf.io/download/$2/" "$DATA/zymo/$1"; }
 osf node_coverage.csv 6599dba095138494ed2386ad
 osf node_coverage_norm.csv eq5sb
 osf edge_coverage-t0.nanosim.tsv 6599db9f2a656093750bf15d
@@ -23,7 +28,7 @@ for a in heterosv_simulated.tar.gz heterosv_cheese.tar.gz; do
     f=$ARCHIVES/$a
   else
     f=$DATA/$a
-    [ -s "$f" ] || curl -fL --retry 5 -o "$f" "https://zenodo.org/records/$ZENODO_RECORD/files/$a?download=1"
+    fetch "https://zenodo.org/records/$ZENODO_RECORD/files/$a?download=1" "$f"
   fi
   tar -xzf "$f" -C "$DATA"
 done
