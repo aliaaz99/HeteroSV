@@ -1,5 +1,5 @@
 #!/bin/bash
-# Figure 5 and the numbers of "Speed", from the timings of the paper's run (one NVIDIA A100 GPU).
+# Appendix Figure 6 and the numbers of "Speed", from the timings of the paper's run (one NVIDIA A100 GPU).
 # RERUN_TIMINGS=1 measures them again on this machine: run it alone on the machine, and expect other
 # numbers on other hardware. Rhea then needs about 78 GB of memory at 30 copies of the Zymo graph; RHEA_COPIES
 # and HETEROSV_COPIES (default "1 10 100 1000") set the sizes.

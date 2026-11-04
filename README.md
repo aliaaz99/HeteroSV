@@ -74,7 +74,7 @@ Each script of `experiments/` reproduces one result of the main body and writes 
 | `experiments/02_fig2_heterophily.sh` | Figure 2 | `fig2_heterophily/fig2.pdf` |
 | `experiments/03_fig3_learning_step.sh` | Figure 3 | `fig3_learning_step/fig3.pdf` |
 | `experiments/04_fig4_table2_cheese.sh` | Figure 4, Table 2 | `fig4_table2_cheese/fig4.pdf`, `table2.md` |
-| `experiments/05_fig5_speed.sh` | Figure 5 | `fig5_speed/fig5.pdf` |
+| `experiments/05_fig5_speed.sh` | Appendix Figure 6 | `fig5_speed/fig5.pdf` |
 
 ### Running the scripts
 
@@ -92,7 +92,7 @@ Training on a GPU is not bit-reproducible, so retraining gives values close to t
 USE_PAPER_CALLS=1 bash experiments/01_table1_benchmark.sh
 ```
 
-Figure 5 is drawn from the timings of the paper's run; `RERUN_TIMINGS=1` measures them on your machine.
+Appendix Figure 6 is drawn from the timings of the paper's run; `RERUN_TIMINGS=1` measures them on your machine.
 
 To list the numbers stated in the text next to the paper's values:
 
